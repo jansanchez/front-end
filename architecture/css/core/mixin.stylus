@@ -4,6 +4,12 @@
 * @module css-architecture
 */
 
+get(array, key)
+	return (pair[1] pair[2]) if pair[0] == key for pair in array
+
+getIconSet(arreglo)
+	background url(imgPath+iconSet"?version") no-repeat scroll get(arreglo, x) get(arreglo, y) transparent
+
 border-radius()
 	-webkit-border-radius arguments
 	-moz-border-radius arguments

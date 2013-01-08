@@ -1,0 +1,8 @@
+/**
+* Vars Module
+* @class vars
+* @module css-architecture
+*/
+
+imgPath = "../img/"
+iconSet = "icon-set.png"

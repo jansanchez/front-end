@@ -4,7 +4,7 @@
 * @module css-architecture
 */
 
-@import "setup/setup.stylus";
+@import "config.stylus";
 @import "core/mixin.stylus";
 
 /*!Reset Module*/
