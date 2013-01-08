@@ -5,14 +5,20 @@
 */
 
 @import "setup/setup.stylus";
+@import "core/mixin.stylus";
 
-@import "core/mixins.stylus";
+/*!Reset Module*/
 @import "core/reset.stylus";
+/*!Font Module*/
 @import "core/font.stylus";
+/*!Form Module*/
 @import "core/form.stylus";
+/*!Button Module*/
 @import "core/button.stylus";
+/*!Grid Module*/
 @import "core/grid.stylus";
+/*!Hack Module*/
 @import "core/hack.stylus";
+/*!Icon Module*/
 @import "core/icon.stylus";
-
 
