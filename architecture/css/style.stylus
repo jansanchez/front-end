@@ -1,0 +1,828 @@
+/*  Funciones */
+border-radius()
+	-webkit-border-radius arguments
+	-moz-border-radius arguments
+	-ms-border-radius arguments
+	-o-border-radius arguments
+	border-radius arguments
+box-shadow()
+	-moz-box-shadow arguments
+	-webkit-box-shadow arguments
+	box-shadow arguments
+/* Fuentes */
+@font-face {
+    font-family: 'helvetica-bold';
+    src: url('fonts/helvetica-bold.eot');
+    src: url('fonts/helvetica-bold.eot?#iefix') format('embedded-opentype'),
+         url('fonts/helvetica-bold.woff') format('woff'),
+         url('fonts/helvetica-bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+/* Reset */
+article,aside,details,figcaption,figure,footer,header,hgroup,nav,section
+	display block
+audio,canvas,video
+	display inline-block
+	*display inline
+	*zoom 1
+audio:not([controls])
+	display none
+html
+	font-size: 100%
+	-webkit-text-size-adjust: 100%
+	-ms-text-size-adjust: 100%
+a:focus
+	outline thin dotted #333
+	outline 5px auto -webkit-focus-ring-color
+	outline-offset -2px
+a:hover,a:active
+	outline 0
+img
+	max-width 100%
+	width auto\9
+	height auto
+	vertical-align middle
+	border 0
+	-ms-interpolation-mode bicubic
+#map_canvas img,.google-maps img
+	max-width: none
+button,input,select,textarea
+	margin: 0
+	font-size: 100%
+	vertical-align: middle
+button,input
+	*overflow: visible;
+	line-height: normal;
+button::-moz-focus-inner,input::-moz-focus-inner
+	padding: 0
+	border: 0
+button,html input[type="button"],input[type="reset"],input[type="submit"]
+	-webkit-appearance: button
+	cursor: pointer
+label,select,button,input[type="button"],input[type="reset"],input[type="submit"],input[type="radio"],input[type="checkbox"]
+	cursor: pointer
+textarea
+	overflow auto
+	vertical-align top
+form
+	padding 0
+	margin 0
+iframe
+	display block
+/* Generales */
+body
+	background #EFEFEF
+	margin 0
+	color #000
+	font-family Arial,sans-serif
+	font-size 12px
+	line-height 14px
+a
+	color #1D46EB
+	text-decoration underline
+	outline 0 !important
+p
+	margin 0 0 10px
+ul
+	margin 0 0 10px
+	padding 0
+input[type="text"]
+	background #FFF
+	border-color #989898 #E7E7E7 #E7E7E7
+	border-style solid
+	border-width 1px
+	color #000
+	font 13px/16px Arial,sans-serif
+	padding 2px 4px
+	width 190px
+input:-moz-placeholder
+	color #888
+select
+	color #000
+	display block
+	font 12px/19px Arial,sans-serif
+	height 22px
+	padding 1px
+	width 200px
+select[disabled]
+	background #CCC
+	color #888
+option
+	border-top 1px solid #DDD
+	overflow hidden
+	padding 2px 5px
+	vertical-align middle
+h1,h2,h3
+	margin 0 0 15px
+	font-size 18px
+	line-height 20px
+/* Utilitarios */
+.c-banner
+	width 100%
+	margin-bottom 15px
+	a,img
+		display block
+.box
+	background #EDEDED
+	border-radius 8px
+	padding 1.6%
+	margin-bottom 15px
+	&.last
+		margin-bottom 0
+	& > h2
+		padding 5px 0 0 10px
+		color #383838
+		font-weight 400
+	.cbox
+		background #FFF
+		border-radius 8px
+		border-top 2px solid #CFCFCF
+		padding 17px
+		&.fix
+			padding 9px 17px
+	&.orange
+		background #FD7915
+		border 1px solid #FD7915
+		box-shadow 0 1px 0 rgba(255, 255, 255, 0.2) inset, 0 1px 2px rgba(0, 0, 0, 0.05)
+		& > h2
+			color #FFF
+		.cbox
+			border-top-color #DE6A07
+	&.cream
+		background #EDE9DD
+		.cbox
+			border-top-color #C5C5C5
+.help-inline
+	display inline-block
+	*display inline
+	padding 3px 0 0 7px
+	margin 0
+	vertical-align top
+	*zoom 1
+.row
+	margin-bottom 15px
+	*zoom 1
+	&:before,&:after
+		display table
+		content ""
+		line-height 0
+	&:after
+		clear both
+.h-ads
+	padding-bottom 10px
+	margin-top 10px
+	border-bottom 1px solid #DFDFDF
+	&:first-child
+		margin 0
+	img
+		display block
+		border 1px solid #CCC
+		float left
+	.ads-desc
+		margin-left 98px
+		min-height 63px
+		height auto !important
+		height 63px
+	h2
+		font-size 12px
+		line-height 13px
+		margin-bottom 4px
+	p
+		margin 0
+	strong
+		display block
+.v-ads
+	color #000
+	list-style none
+	margin 0
+	padding-top 1px
+	*zoom 1
+	&:before,&:after
+		display table
+		content ""
+		line-height 0
+	&:after
+		clear both
+	li
+		float left
+		width 87px
+		padding 0 0 4px 6px
+		&.first
+			padding-left 0
+		&.last
+			padding-bottom 0
+.h-list
+	padding 0
+	margin 0
+	list-style none
+	li
+		font-weight 700
+		margin-top 12px
+		&:first-child
+			margin 0
+	a
+		font-weight 400
+		display inline-block
+		*display inline
+		margin-left 8px
+		vertical-align top
+		*zoom 1
+.dg-black
+	background #313131
+	background-image -ms-linear-gradient(top, #313131, #0D0D0D)
+	background-image -webkit-gradient(linear, 0 0, 0 100%, from( #313131), to(#0D0D0D))
+	background-image -webkit-linear-gradient(top, #313131, #0D0D0D)
+	background-image -o-linear-gradient(top, #313131,#0D0D0D)
+	background-image linear-gradient(top, #313131, #0D0D0D)
+	background-image -moz-linear-gradient(top, #313131,#0D0D0D )
+	transition background-position 0.1s linear
+	background-image unquote("url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPgo8bGluZWFyR3JhZGllbnQgaWQ9Imc0NDkiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4MT0iMCUiIHkxPSIwJSIgeDI9IjAlIiB5Mj0iMTAwJSI+CjxzdG9wIHN0b3AtY29sb3I9IiMzMTMxMzEiIG9mZnNldD0iMCIvPjxzdG9wIHN0b3AtY29sb3I9IiMwRDBEMEQiIG9mZnNldD0iMSIvPgo8L2xpbmVhckdyYWRpZW50Pgo8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2c0NDkpIiAvPgo8L3N2Zz4=)")
+.help
+	margin 2px 0 0 6px
+/* Contenedores */
+#wrapper
+	width 980px
+	padding 0 10px
+	margin 0 auto
+	background #FFF
+.content-inner
+	padding-bottom 30px
+	*zoom 1
+	&:before,&:after
+		display table
+		content ""
+		line-height 0
+	&:after
+		clear both
+.container
+	float left
+	width 650px
+.side-right
+	float right
+	width 320px
+/* Header */
+header
+	padding-top 10px
+	height 90px
+	position relative
+	h1
+		width 225px
+		margin 0
+		font-size 0
+		line-height 0
+		padding-left 10px
+	img
+		display block
+.account
+	margin 0
+	position absolute
+	right 0
+	top 10px
+	padding 0
+	list-style none
+	li
+		border-left 1px solid #E0E0E0
+		float left
+		padding 0 10px
+		&:first-child
+			border none
+	a
+		font-weight 700
+		line-height 16px
+		display block
+#frm_top_search
+	left 293px
+	padding 0
+	position absolute
+	top 50px
+	input[type="text"]
+		height 18px
+		line-height 18px
+/* Footer */
+.inner-footer
+	display block
+	border-radius 4px
+	padding 14px 14px 30px
+	color #FFF
+	margin-bottom 10px
+	h2
+		font-size 12px
+		line-height 14px
+		padding 0 28px
+		.icon
+			margin-right 5px
+	ul
+		list-style none
+		margin-bottom 18px
+	li
+		margin-top 4px
+		&:first-child
+			margin 0
+	.v-all
+		padding 0
+	a
+		color #FFF
+	.row
+		width 686px
+		margin 0
+	.grid4
+		float left
+		width 229px
+		&:first-child
+			width 228px
+			.content
+				border none
+				width 172px
+	.content
+		border-left 1px solid #333
+		width 173px
+		padding 7px 28px 14px
+.pay-footer
+	border-top 1px solid #999
+	border-bottom 1px solid #999
+	padding 10px 0 4px
+	position relative
+	p
+		font-size 16px
+		padding-left 150px
+		margin-bottom 14px
+		span
+			display inline-block
+			*display inline
+			padding-top 7px
+			vertical-align top
+	.sub
+		font-size 11px
+		margin 0
+		padding 0
+		text-align center
+	.icon
+		height 29px
+		margin-left 12px
+	.pefectivo
+		background-position -56px 0
+		width 70px
+	.visa
+		background-position -56px -29px
+		width 58px
+	.vfvisa
+		background-position -126px 0
+		width 54px
+	.mcard
+		background-position -180px 0
+		width 46px
+	.smcard
+		background-position -114px -29px
+		width 62px
+	.afvisa
+		background-position -176px -29px
+		height 39px
+		margin 0
+		position absolute
+		right 0
+		top 8px
+		width 62px
+		width 80px
+.foot-menu
+	padding 10px 0
+	font-size 11px
+	height 14px
+	position relative
+	ul
+		list-style none
+		margin 0
+		float left
+	li
+		float left
+		margin-right 10px
+	a
+		color #333
+	.book-claims
+		position absolute
+		top 8px
+		left 484px
+	.icon
+		vertical-align middle
+		margin-right 8px
+	p
+		float right
+		.icon
+			font-size 0
+			line-height 0
+			vertical-align top
+			margin 0 0 0 6px
+.link-footer
+	background #000
+	border-radius 4px 4px 0 0
+	color #FFF
+	padding 1px 16px 9px
+	height 36px
+	width 948px
+	a
+		color #FFF
+	ul
+		margin 0
+		list-style none
+		float left
+		width 856px
+	li
+		float left
+		font-size 11px
+		border-right 1px solid #CCC
+		padding 0 9px
+		line-height 12px
+		margin-top 6px
+	span
+		color #CCC
+		float left
+		width 92px
+		padding-top 6px
+/* Menu */
+#main-menu
+	padding 0
+	list-style none
+	height 50px
+	background #000
+	border-radius 4px
+	background url("../images/bg-menu.png?version") repeat-x
+	margin 0 0 15px
+	box-shadow 0 1px 2px #676565
+	li
+		float left
+		padding-right 2px
+		background url("../images/bg-menu.png?version") right -100px no-repeat
+		&:first-child
+			a:hover
+				border-radius 4px 0 0 4px
+	a
+		font-weight 700
+		color #FFF
+		text-decoration none
+		display block
+		line-height 50px
+		padding 0 18px
+		&:hover
+			background url("../images/bg-menu.png?version") 0 -50px repeat-x
+/* Forms */
+.control-group
+	padding-bottom 11px
+	*zoom 1
+	&:before,&:after
+		display table
+		content ""
+		line-height 0
+	&:after
+		clear both
+	&.last
+		padding-bottom 0
+.cgroup-inline
+	padding-bottom 11px
+	*zoom 1
+	&:before,&:after
+		display table
+		content ""
+		line-height 0
+	&:after
+		clear both
+	.control-group
+		float left
+		margin-left 10px
+		padding 0
+		&:first-child
+			margin 0
+	.controls, .control-label.fix
+		width auto
+.controls
+	float left
+	width 205px
+.control-label
+	float left
+	width 64px
+	padding 3px 4px 0 0
+.form-action
+	text-align center
+	padding 7px 0
+/* Tamaños inputs */
+.input-small
+	width 69px !important
+.input-xsmall
+	width 38px !important
+.input-medium
+	width 126px !important
+.input-large
+	width 290px !important
+/* Style Home */
+#frm_home_search
+	font-size 11px
+	.control-label
+		padding-bottom 2px
+	input[type="text"]
+		font-size 11px
+		line-height 13px
+		height 13px
+	.help
+		margin-top 1px
+	select
+		font-size 11px
+		height 21px
+aside
+	.control-label
+		width 106px
+	.controls
+		width 165px
+	input[type="text"]
+		width 100px
+	.control-group
+		padding-bottom 15px
+.t-vehicle
+	font-size 10px
+	.v-type
+		background url("../images/sprite-tcar.gif?version")
+		border 1px solid #9F9F9F
+		display block
+		font-size 0
+		height 54px
+		opacity 0.8
+		padding 0
+		width 85px
+		*text-indent -9999px
+		&:hover
+			opacity 1
+	p
+		margin 0
+		height 33px
+		padding 2px 1px 0
+		line-height 11px
+	a
+		vertical-align top
+	span
+		display inline-block
+		*display inline
+		padding-left 3px
+		vertical-align top
+		*zoom 1
+	.t2
+		background-position -255px 0
+	.t3
+		background-position -255px -54px
+	.t4
+		background-position -85px -54px
+	.t5
+		background-position -85px 0
+	.t6
+		background-position 0 -54px
+	.t7
+		background-position -170px 0
+	.t8
+		background-position -170px -54px
+.f-brands
+	text-align center
+	font-size 11px
+	padding 0
+	a
+		display block
+		line-height 12px
+	.fb-img
+		height 50px
+		margin 0 auto
+		width 76px
+	li
+		height 74px
+		padding-bottom 6px
+.bx-note
+	.cbox
+		background #fff
+		background unquote("url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSI5NSUiIHN0b3AtY29sb3I9IiNmZmZmZmYiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjZWJlYmViIiBzdG9wLW9wYWNpdHk9IjEiLz4KICA8L2xpbmVhckdyYWRpZW50PgogIDxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9InVybCgjZ3JhZC11Y2dnLWdlbmVyYXRlZCkiIC8+Cjwvc3ZnPg==)")
+		background -moz-linear-gradient(top,  #ffffff 95%, #ebebeb 100%); /* FF3.6+ */
+		background -webkit-gradient(linear, left top, left bottom, color-stop(95%,#ffffff), color-stop(100%,#ebebeb)); /* Chrome,Safari4+ */
+		background -webkit-linear-gradient(top,  #ffffff 95%,#ebebeb 100%); /* Chrome10+,Safari5.1+ */
+		background -o-linear-gradient(top,  #ffffff 95%,#ebebeb 100%); /* Opera 11.10+ */
+		background -ms-linear-gradient(top,  #ffffff 95%,#ebebeb 100%); /* IE10+ */
+		background linear-gradient(to bottom,  #ffffff 95%,#ebebeb 100%); /* W3C */
+		border-left 2px solid #E0E0E0
+		border-top 2px solid #E8E8E8
+		border-bottom 1px solid #EBEBEB
+		box-shadow 0 3px 3px #ADABAB
+		padding 17px 13px
+	span
+		display block
+		color #666
+	p
+		font-size 12px
+		margin-bottom 12px
+		text-align justify
+	img
+		display block
+	.n-vmore
+		position absolute
+		bottom 5px
+		right 0
+.note-main
+	border-right 1px solid #CCC
+	color #808080
+	float left
+	height 230px
+	margin-bottom 10px
+	width 377px
+	.n-img
+		border 3px solid #CCC
+		display block
+		float left
+		height 91px
+		width 123px
+	.n-description
+		height 230px
+		margin 0 15px 0 145px
+		position relative
+		h2
+			font-size 15px
+			font-weight 700
+			line-height 17px
+			margin-bottom 5px
+		span
+			margin-bottom 5px
+	.n-vmore
+		right 15px
+.note-list
+	float left
+	height 230px
+	margin-bottom 10px
+	padding-left 15px
+	position relative
+	width 208px
+	ul
+		list-style none
+		margin 0
+	li
+		padding 6px 0
+		border-bottom 1px solid #CCC
+		display block
+	h2
+		font-size 12px
+		font-weight 700
+		line-height 15px
+		margin-bottom 5px
+	span
+		font-size 11px
+.note-foot
+	border-top 1px solid #999
+	clear both
+	padding-top 10px
+	*padding-top 4px
+	text-align right
+	.patiotuerca
+		background url("../images/icon-set.png?version") no-repeat -137px -68px
+		display inline-block
+		*display inline
+		font-size 0
+		height 51px
+		*text-indent -9999px
+		vertical-align top
+		width 119px
+		*zoom 1
+/* Iconos */
+.icon
+	background url("../images/icon-set.png?version")
+	display inline-block
+	*display inline
+	vertical-align top
+	*zoom 1
+	&.wheels
+		background-position -226px 0
+		height 13px
+		width 14px
+	&.book
+		background-position 0 -59px
+		height 20px
+		width 48px
+	&.ilogo
+		background-position -48px -59px
+		height 12px
+		width 60px
+	&.help
+		background-position -240px 0
+		height 16px
+		width 16px
+/* Botones */
+.btn
+	background-color #227FE7
+	background-image -ms-linear-gradient(top, #227FE7, #19559B)
+	background-image -webkit-gradient(linear, 0 0, 0 100%, from( #227FE7), to(#19559B))
+	background-image -webkit-linear-gradient(top, #227FE7, #19559B)
+	background-image -o-linear-gradient(top, #227FE7,#19559B)
+	background-image linear-gradient(to bottom, #227FE7, #19559B)
+	background-image -moz-linear-gradient(to bottom, #227FE7,#19559B )
+	background-image unquote("url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPgo8bGluZWFyR3JhZGllbnQgaWQ9Imc1MSIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMCUiIHkyPSIxMDAlIj4KPHN0b3Agc3RvcC1jb2xvcj0iIzIyN0ZFNyIgb2Zmc2V0PSIwIi8+PHN0b3Agc3RvcC1jb2xvcj0iIzE5NTU5QiIgb2Zmc2V0PSIxIi8+CjwvbGluZWFyR3JhZGllbnQ+CjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9InVybCgjZzUxKSIgLz4KPC9zdmc+)")
+	border-color #227FE7 #175498 #195EAC
+	border-image none
+	border-radius 4px
+	border-style solid
+	border-width 1px
+	box-shadow 0 1px 0 rgba(255, 255, 255, 0.2) inset, 0 1px 2px rgba(0, 0, 0, 0.05)
+	*border none
+	color #FFF
+	display inline-block
+	*display inline
+	font 400 15px/17px 'helvetica-bold',Arial,sans-serif
+	padding 7px 16px
+	text-decoration none
+	text-shadow -1px 1px 1px #251D1D
+	transition background-position 0.1s linear
+	vertical-align middle
+	&:hover
+		background #19559B
+		background-image -ms-linear-gradient(top, #19559B, #217DE4)
+		background-image -webkit-gradient(linear, 0 0, 0 100%, from( #19559B), to(#217DE4))
+		background-image -webkit-linear-gradient(top, #19559B, #217DE4)
+		background-image -o-linear-gradient(top, #19559B,#217DE4)
+		background-image linear-gradient(top, #19559B, #217DE4)
+		background-image -moz-linear-gradient(top, #19559B,#217DE4 )
+		background-image unquote("url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPgo8bGluZWFyR3JhZGllbnQgaWQ9Imc1MzUiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4MT0iMCUiIHkxPSIwJSIgeDI9IjAlIiB5Mj0iMTAwJSI+CjxzdG9wIHN0b3AtY29sb3I9IiMxOTU1OUIiIG9mZnNldD0iMCIvPjxzdG9wIHN0b3AtY29sb3I9IiMyMTdERTQiIG9mZnNldD0iMSIvPgo8L2xpbmVhckdyYWRpZW50Pgo8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2c1MzUpIiAvPgo8L3N2Zz4=)")
+		border-color #195EAC #175498 #227FE7
+.btn-large
+	font-size 18px
+	line-height 20px
+	*line-height 29px
+	*padding 0 16px
+	width 148px
+.btn-smedium
+	font-size 17px
+	line-height 17px
+	*line-height 27px
+	padding 8px 20px
+	*padding 0 20px
+/* Grillas */
+.grid6
+	float left
+	width 49.2%
+	margin-left 1.6%
+	&:first-child
+		margin 0
+	.box
+		margin 0
+/* Background Banners */
+.banner
+	width 100%
+	margin-bottom 15px
+	display block
+	&.salecar
+		background url("../images/banners.png?version") -320px 0
+		height 101px
+		&:hover
+			background-position -320px -101px
+	&.salecarb
+		background url("../images/banners.png?version")
+		height 125px
+		&:hover
+			background-position 0 -125px
+.banner-footer
+	background #FFF
+	border-radius 8px
+	border-top 2px solid #A0A0A0
+	color #000
+	float right
+	height 139px
+	width 211px
+	padding 18px 14px 16px
+	h3
+		color #F07208
+		font-family Arial,sans-serif
+		font-weight 400
+		line-height 18px
+		text-align center
+	p
+		font-size 14px
+		line-height 18px
+		margin 0 0 12px 70px
+		height 59px
+	.i-taxi
+		background url("../images/icon-set.png?version") no-repeat
+		width 56px
+		height 59px
+		float left
+	.btn
+		width 72px
+		margin 0 auto
+		display block
+/* Hacks */
+.v-all
+	display block
+	padding 5px
+.pb15
+	padding-bottom 15px
+.lt-ie9
+	.dg-black
+		filter unquote("progid:DXImageTransform.Microsoft.gradient( startColorstr='#313131', endColorstr='#0D0D0D',GradientType=0)")
+		*zoom 1
+.lt-ie9
+	.btn
+		filter unquote("progid:DXImageTransform.Microsoft.gradient( startColorstr='#227FE7', endColorstr='#19559B',GradientType=0)")
+		*zoom 1
+		&:hover
+			filter unquote("progid:DXImageTransform.Microsoft.gradient( startColorstr='#19559B', endColorstr='#227FE7',GradientType=0)")
+.lt-ie9
+	.bx-note
+		.cbox
+			background #FFF
+			border-bottom 1px solid #EBEBEB
