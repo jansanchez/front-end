@@ -4,8 +4,9 @@
 * @module css-architecture
 */
 
-@import "config.stylus";
+@import "config/config.stylus";
 @import "core/mixin.stylus";
 
 .btnRegister
 	getIconSet(btnRegister)
+

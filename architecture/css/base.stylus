@@ -4,7 +4,7 @@
 * @module css-architecture
 */
 
-@import "config.stylus";
+@import "config/config.stylus";
 @import "core/mixin.stylus";
 
 /*!Reset Module*/
@@ -21,4 +21,3 @@
 @import "core/hack.stylus";
 /*!Icon Module*/
 @import "core/icon.stylus";
-
