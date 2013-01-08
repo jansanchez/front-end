@@ -1,0 +1,26 @@
+/**
+* Container Module
+* @class container
+* @module css-architecture
+*/
+
+#wrapper
+	width 980px
+	padding 0 10px
+	margin 0 auto
+	background #FFF
+.content-inner
+	padding-bottom 30px
+	*zoom 1
+	&:before,&:after
+		display table
+		content ""
+		line-height 0
+	&:after
+		clear both
+.container
+	float left
+	width 650px
+.side-right
+	float right
+	width 320px

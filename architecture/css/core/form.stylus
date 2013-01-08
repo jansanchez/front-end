@@ -1,0 +1,44 @@
+/**
+* Form Module
+* @class form
+* @module css-architecture
+*/
+
+.control-group
+	padding-bottom 11px
+	*zoom 1
+	&:before,&:after
+		display table
+		content ""
+		line-height 0
+	&:after
+		clear both
+	&.last
+		padding-bottom 0
+.cgroup-inline
+	padding-bottom 11px
+	*zoom 1
+	&:before,&:after
+		display table
+		content ""
+		line-height 0
+	&:after
+		clear both
+	.control-group
+		float left
+		margin-left 10px
+		padding 0
+		&:first-child
+			margin 0
+	.controls, .control-label.fix
+		width auto
+.controls
+	float left
+	width 205px
+.control-label
+	float left
+	width 64px
+	padding 3px 4px 0 0
+.form-action
+	text-align center
+	padding 7px 0

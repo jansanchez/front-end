@@ -1,0 +1,13 @@
+/**
+* Grid Module
+* @class grid
+* @module css-architecture
+*/
+.grid6
+	float left
+	width 49.2%
+	margin-left 1.6%
+	&:first-child
+		margin 0
+	.box
+		margin 0

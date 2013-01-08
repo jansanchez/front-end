@@ -1,0 +1,14 @@
+/**
+* Input Module
+* @class input
+* @module css-architecture
+*/
+
+.input-small
+	width 69px !important
+.input-xsmall
+	width 38px !important
+.input-medium
+	width 126px !important
+.input-large
+	width 290px !important

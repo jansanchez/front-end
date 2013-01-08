@@ -1,0 +1,52 @@
+/**
+* General Module
+* @class general
+* @module css-architecture
+*/
+
+body
+	background #EFEFEF
+	margin 0
+	color #000
+	font-family Arial,sans-serif
+	font-size 12px
+	line-height 14px
+a
+	color #1D46EB
+	text-decoration underline
+	outline 0 !important
+p
+	margin 0 0 10px
+ul
+	margin 0 0 10px
+	padding 0
+input[type="text"]
+	background #FFF
+	border-color #989898 #E7E7E7 #E7E7E7
+	border-style solid
+	border-width 1px
+	color #000
+	font 13px/16px Arial,sans-serif
+	padding 2px 4px
+	width 190px
+input:-moz-placeholder
+	color #888
+select
+	color #000
+	display block
+	font 12px/19px Arial,sans-serif
+	height 22px
+	padding 1px
+	width 200px
+select[disabled]
+	background #CCC
+	color #888
+option
+	border-top 1px solid #DDD
+	overflow hidden
+	padding 2px 5px
+	vertical-align middle
+h1,h2,h3
+	margin 0 0 15px
+	font-size 18px
+	line-height 20px
