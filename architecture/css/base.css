@@ -41,11 +41,4 @@ iframe{display:block}
 /*Grid Module*/
 .grid6{float:left;width:49.2%;margin-left:1.6%;}
 .grid6:first-child{margin:0}
-.grid6 .box{margin:0}
 /*Hack Module*/
-/*Icon Module*/
-.icon{background:url("../images/icon-set.png?version");display:inline-block;*display:inline;vertical-align:top;*zoom:1;}
-.icon.wheels{background-position:-226px 0;height:13px;width:14px}
-.icon.book{background-position:0 -59px;height:20px;width:48px}
-.icon.ilogo{background-position:-48px -59px;height:12px;width:60px}
-.icon.help{background-position:-240px 0;height:16px;width:16px}
