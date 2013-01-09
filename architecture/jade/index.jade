@@ -1,11 +1,12 @@
 - version = Math.floor((Math.random()*99)+1)
+- urlStatic = "http://local.perured.pe/"
 doctype 5
 html(lang='es')
 	head
 		title('Front-End Architecture')
-		link(type='text/css', rel='stylesheet', href='../css/layout.css?v=#{version}')
-		link(type='text/css', rel='stylesheet', href='../css/base.css?v=#{version}')
-		link(type='text/css', rel='stylesheet', href='../css/application/modules/default/default.css?v=#{version}')
+		link(type='text/css', rel='stylesheet', href=urlStatic+'css/layout.css?v=#{version}')
+		link(type='text/css', rel='stylesheet', href=urlStatic+'css/base.css?v=#{version}')
+		link(type='text/css', rel='stylesheet', href=urlStatic+'css/application/modules/default/default.css?v=#{version}')
 		script(type="text/javascript", src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js")
 		script(type='text/javascript')
 			window.jQuery || document.write(unescape('%3Cscript src="js/jquery.min.js" type="text/javascript"%3E%3C/script%3E'))
