@@ -11,5 +11,6 @@
 @import "application/common/common.stylus";
 
 
+
 .btnRegister
 	getIconSet(btnRegister)
