@@ -9,15 +9,16 @@
 
 /*!Container Module*/
 @import "application/common/container.stylus";
-/*!Util Module*/
-@import "application/common/util.stylus";
 /*!General Module*/
 @import "application/common/general.stylus";
 /*!Input Module*/
 @import "application/common/input.stylus";
 /*!Fix Module*/
 @import "application/common/fix.stylus";
+/*!Hack Module*/
+@import "application/common/hack.stylus";
 
 .btnRegister
 	getIconSet(btnRegister)
+
 
