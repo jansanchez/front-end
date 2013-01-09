@@ -9,5 +9,3 @@
 	margin-left 1.6%
 	&:first-child
 		margin 0
-	.box
-		margin 0

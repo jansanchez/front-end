@@ -43,12 +43,6 @@ iframe{display:block}
 .grid6:first-child{margin:0}
 .grid6 .box{margin:0}
 /*Hack Module*/
-.v-all{display:block;padding:5px}
-.pb15{padding-bottom:15px}
-.lt-ie9 .dg-black{filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#313131', endColorstr='#0D0D0D',GradientType=0);*zoom:1}
-.lt-ie9 .btn{filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#227FE7', endColorstr='#19559B',GradientType=0);*zoom:1;}
-.lt-ie9 .btn:hover{filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#19559B', endColorstr='#227FE7',GradientType=0)}
-.lt-ie9 .bx-note .cbox{background:#fff;border-bottom:1px solid #ebebeb}
 /*Icon Module*/
 .icon{background:url("../images/icon-set.png?version");display:inline-block;*display:inline;vertical-align:top;*zoom:1;}
 .icon.wheels{background-position:-226px 0;height:13px;width:14px}

@@ -21,6 +21,4 @@
 @import "core/grid.stylus";
 /*!Hack Module*/
 @import "core/hack.stylus";
-/*!Icon Module*/
-@import "core/icon.stylus";
 

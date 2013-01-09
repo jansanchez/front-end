@@ -7,18 +7,9 @@
 @import "config/config.stylus";
 @import "core/mixin.stylus";
 
-/*!Container Module*/
-@import "application/common/container.stylus";
-/*!General Module*/
-@import "application/common/general.stylus";
-/*!Input Module*/
-@import "application/common/input.stylus";
-/*!Fix Module*/
-@import "application/common/fix.stylus";
-/*!Hack Module*/
-@import "application/common/hack.stylus";
+/*!Common Module*/
+@import "application/common/common.stylus";
+
 
 .btnRegister
 	getIconSet(btnRegister)
-
-
