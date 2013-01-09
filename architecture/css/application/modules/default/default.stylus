@@ -1,0 +1,8 @@
+/**
+* Default Module
+* @class default
+* @module css-architecture
+*/
+
+/*!Index Module*/
+@import "views/index.stylus";

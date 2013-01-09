@@ -1,0 +1,8 @@
+/**
+* modulo index
+* @submodule index
+* @main default
+*/
+
+.index
+	display block
