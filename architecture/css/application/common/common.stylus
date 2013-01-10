@@ -6,6 +6,8 @@
 
 /*!General Module*/
 @import "general.stylus";
+/*!Font Module*/
+@import "font.stylus";
 /*!Input Module*/
 @import "input.stylus";
 /*!Fix Module*/

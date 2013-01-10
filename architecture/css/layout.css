@@ -9,6 +9,12 @@ select{color:#000;display:block;font:12px/19px Arial,sans-serif;height:22px;padd
 select[disabled]{background:#ccc;color:#888}
 option{border-top:1px solid #ddd;overflow:hidden;padding:2px 5px;vertical-align:middle}
 h1,h2,h3{margin:0 0 15px;font-size:24px;line-height:20px}
+@font-face{
+		font-family:'MyriadWebPro';
+		font-weight:normal;font-style:normal
+		src:url(../wf/myriadwebpro/myriadwebpro-webfont.eot?#iefix) format('embedded-opentype'),src:url(../wf/myriadwebpro/myriadwebpro-webfont.eot?version);
+		url(../wf/myriadwebpro/myriadwebpro-webfont.ttf?version) format('truetype');
+	}
 .input-small{width:69px !important}
 .input-xsmall{width:38px !important}
 .input-medium{width:126px !important}
