@@ -23,7 +23,7 @@
 	color #FFF
 	display inline-block
 	*display inline
-	font 400 15px/17px 'helvetica-bold',Arial,sans-serif
+	font 400 15px/17px arial
 	padding 7px 16px
 	text-decoration none
 	text-shadow -1px 1px 1px #251D1D
