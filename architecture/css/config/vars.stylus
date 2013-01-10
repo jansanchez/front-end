@@ -4,12 +4,15 @@
 * @module css-architecture
 */
 
-widthPage = 980px
-paddingWrapper = 0 10px
+$WIDTH_PAGE   = 980px  //Ancho de la Web                widthPage
+$NUM_COLS       = 16   // Numero de Columnas
+$MARGIN_PAGE = 10px    //Margin Left y Right
+$WIDTH_COL      = ($WIDTH_PAGE/$NUM_COLS) - (2*$MARGIN_PAGE)  //Dimension de cada columna
 
-bodyFontSize = 12px
-bodyLineHeight = 14px
+$PADDING_WRAPPER = 0 10px   //paddingWrapper
 
+$FONT_SIZE = 12px
+$LINE_HEIGHT = 14px
 
 
 imgPath = "../img/"

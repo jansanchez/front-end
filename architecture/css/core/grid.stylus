@@ -3,9 +3,34 @@
 * @class grid
 * @module css-architecture
 */
-.grid6
-	float left
-	width 49.2%
-	margin-left 1.6%
-	&:first-child
-		margin 0
+
+$COLOR = '#000'
+
+
+
+
+for i in 1...($NUM_COLS +1)  //Estilo para las columnas
+	.col{i}
+		float left
+		margin 0 (2*$MARGIN_PAGE) 0 0
+		width ($WIDTH_COL*i) + ($MARGIN_PAGE*2)*(i -1)
+		overflow hidden
+	if i==$NUM_COLS
+		.col50
+			float left
+			margin 0 (2*$MARGIN_PAGE) 0 0
+			width (($WIDTH_PAGE - (2*$MARGIN_PAGE))/2)
+			overflow hidden
+			&:last-child
+				margin 0
+
+
+.cend  //Estilo para la columna final de una fila
+	margin-right 0
+
+.row    //Estilo para definir una fila
+	width 100%
+	overflow hidden
+	margin 0 0 1em 0
+	display block
+	overflow hidden
