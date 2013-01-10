@@ -1,6 +1,7 @@
 /*Common Module*/
-body{background:none repeat scroll 0 0 #fff;color:#666;font:400 12px/14px Arial,sans-serif;margin:0}
-a{color:#0c2a85;text-decoration:underline;outline:0 !important}
+body{background:none repeat scroll 0 0 #fff;color:#666;font:400 13px/14px Arial,sans-serif;margin:0}
+a{color:#0c2a85;text-decoration:underline;outline:0 !important;}
+a:hover{color:#13318d}
 p{margin:0 0 10px}
 ul{margin:0 0 10px;padding:0}
 input[type="text"]{background:#fff;border-color:#989898 #e7e7e7 #e7e7e7;border-style:solid;border-width:1px;color:#000;font:13px/16px Arial,sans-serif;padding:2px 4px;width:190px}
@@ -25,20 +26,20 @@ h1,h2,h3{margin:0 0 15px;font-size:24px;line-height:20px}
 .lt-ie9 .btn{filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#227FE7', endColorstr='#19559B',GradientType=0);*zoom:1;}
 .lt-ie9 .btn:hover{filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#19559B', endColorstr='#227FE7',GradientType=0)}
 .lt-ie9 .bx-note .cbox{background:#fff;border-bottom:1px solid #ebebeb}
-header{background:none repeat scroll 0 0 #eff4fa;border-color:#ccc;border-style:solid;border-width:0 0 1px 0;height:95px;padding:15px 0 0 0;}
+header{background:none repeat scroll 0 0 #eff4fa;border-color:#ccc;border-style:solid;border-width:0 0 1px 0;height:100px;padding:15px 0 0 0;}
 header h1{font-size:0;line-height:0;margin:0;width:156px;float:left;}
 header h1 img{display:block}
 .account{float:right;list-style:none outside none;margin:0;padding:0;}
 .account li{border-left:1px solid #ddd;float:left;padding:0 10px}
 .account li:first-child{border:medium none}
-#main-menu{clear:both;height:30px;list-style:none outside none;margin:0;padding:0 0 0 207px;}
-#main-menu li{float:left;padding:7px 10px;}
-#main-menu li a{font-family:'century',Arial,sans-serif;font-size:16px;text-decoration:none}
-#main-menu .active{background:none repeat scroll 0 0 #fff;border-color:#ccc;border-style:solid;border-width:1px 1px 0;-webkit-border-radius:8px 8px 0 0;-moz-border-radius:8px 8px 0 0;-ms-border-radius:8px 8px 0 0;-o-border-radius:8px 8px 0 0;border-radius:8px 8px 0 0}
+#main-menu{clear:both;list-style:none outside none;margin:0;padding:0 0 0 220px;}
+#main-menu li{float:left;padding:10px 1px;}
+#main-menu li a{font-family:'century',Arial,sans-serif;font-size:16px;text-decoration:none;background:none repeat scroll 0 0 #eff4fa;border-color:#eff4fa;-webkit-border-radius:8px 8px 0 0;-moz-border-radius:8px 8px 0 0;-ms-border-radius:8px 8px 0 0;-o-border-radius:8px 8px 0 0;border-radius:8px 8px 0 0;border-style:solid;border-width:1px 1px 0;padding:7px 7px 6px;}
+#main-menu li a.active,#main-menu li a:hover{background:none repeat scroll 0 0 #fff;border-color:#ccc;-webkit-border-radius:8px 8px 0 0;-moz-border-radius:8px 8px 0 0;-ms-border-radius:8px 8px 0 0;-o-border-radius:8px 8px 0 0;border-radius:8px 8px 0 0;border-style:solid;border-width:1px 1px 0;padding:7px 7px 7px}
 footer{background:none repeat scroll 0 0 #eff4fa;border-color:#ccc;border-style:solid;border-width:1px 0 0 0;height:431px;padding:10px 0 0 0;}
-footer .visit-also{color:#666;float:left;font:400 12px/14px Arial,sans-serif;padding-top:6px;width:85px}
+footer .visit-also{color:#666;float:left;font:400 13px/14px Arial,sans-serif;padding-top:6px;width:85px}
 footer .visit-also-list{float:left;list-style:none outside none;margin:0;width:895px;}
 footer .visit-also-list li{border-right:1px solid #666;float:left;line-height:12px;margin-top:6px;padding:0 5px;}
-footer .visit-also-list li a{font:400 12px/14px Arial,sans-serif;text-decoration:none}
+footer .visit-also-list li a{font:400 13px/14px Arial,sans-serif;text-decoration:none}
 footer .visit-also-list .last{border:medium none}
 .btnRegister{background:url("imgPathiconSet?version") no-repeat scroll 0  -32px  transparent}

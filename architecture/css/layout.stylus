@@ -16,7 +16,7 @@ header
 	border-color borderColor
 	border-style solid
 	border-width 0 0 1px 0
-	height 110px - 15px
+	height 115px - 15px
 	padding 15px 0 0 0
 	h1
 		font-size 0
@@ -43,25 +43,30 @@ header
 
 #main-menu
 	clear: both;
-	height: 30px;
+	//height: 30px;
 	list-style: none outside none;
 	margin: 0;
-	padding: 0 0 0 207px
-
+	padding: 0 0 0 220px
 	li
 		float: left;
-		padding: 7px 10px;
+		padding: 10px 1px
 		a
 			font-family: 'century', arial;
 			font-size h4
 			text-decoration none
-	.active
-		background none repeat scroll 0 0 white
-		border-color borderColor
-		border-style solid
-		border-width 1px 1px 0
-		border-radius 8px 8px 0 0
-
+			background: none repeat scroll 0 0 headerColor;
+			border-color headerColor
+			border-radius: 8px 8px 0 0;
+			border-style: solid;
+			border-width: 1px 1px 0;
+			padding: 7px 7px 6px;
+			&.active,&:hover
+				background: none repeat scroll 0 0 #FFFFFF;
+				border-color borderColor
+				border-radius: 8px 8px 0 0;
+				border-style: solid;
+				border-width: 1px 1px 0;
+				padding: 7px 7px 7px;
 
 footer
 	background none repeat scroll 0 0 footerColor

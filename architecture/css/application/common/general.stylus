@@ -13,6 +13,8 @@ a
 	color linkColor
 	text-decoration underline
 	outline 0 !important
+	&:hover
+		color hoverColor
 p
 	margin 0 0 10px
 ul

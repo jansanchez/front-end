@@ -11,7 +11,7 @@ $WIDTH_COL      = ($WIDTH_PAGE/$NUM_COLS) - (2*$MARGIN_PAGE)  //Dimension de cad
 
 $PADDING_WRAPPER = 20px 10px   //paddingWrapper
 
-$FONT_SIZE = 12px
+$FONT_SIZE = 13px
 $LINE_HEIGHT = 14px
 
 $IMG_PATH = "../img/"
