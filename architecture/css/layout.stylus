@@ -19,8 +19,6 @@ header
 	height 181px
 	padding 10px 0 0 0
 
-
-
 footer
 	background none repeat scroll 0 0 BgHeaderColor
 	border-color borderColor

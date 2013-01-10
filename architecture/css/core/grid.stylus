@@ -3,6 +3,35 @@
 * @class grid
 * @module css-architecture
 */
+
+#wrapper
+	width widthPage
+	padding paddingWrapper
+	margin 0 auto
+	background #FFF
+
+.box-center
+	clear both
+	margin 0 auto
+	position relative
+	width widthPage
+
+.content-inner
+	padding-bottom 30px
+	*zoom 1
+	&:before,&:after
+		display table
+		content ""
+		line-height 0
+	&:after
+		clear both
+.container
+	float left
+	width 650px
+.side-right
+	float right
+	width 320px
+
 .grid6
 	float left
 	width 49.2%
