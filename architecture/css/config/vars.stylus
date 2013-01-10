@@ -15,6 +15,5 @@ $FONT_SIZE = 12px
 $LINE_HEIGHT = 14px
 
 
-imgPath = "../img/"
-iconSet = "icon-set.png"
-
+$IMG_PATH = "../img/"
+$ICON_SET = "icon-set.png"

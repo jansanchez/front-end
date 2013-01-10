@@ -4,8 +4,6 @@
 * @module css-architecture
 */
 
-/*!Container Module*/
-@import "container.stylus";
 /*!General Module*/
 @import "general.stylus";
 /*!Input Module*/

@@ -3,11 +3,7 @@
 * @class grid
 * @module css-architecture
 */
-
-$COLOR = '#000'
-
-
-
+@import "../config/vars.stylus"
 
 for i in 1...($NUM_COLS +1)  //Estilo para las columnas
 	.col{i}
@@ -34,3 +30,33 @@ for i in 1...($NUM_COLS +1)  //Estilo para las columnas
 	margin 0 0 1em 0
 	display block
 	overflow hidden
+
+// ------------------------------
+
+#wrapper
+	width widthPage
+	padding paddingWrapper
+	margin 0 auto
+	background #FFF
+
+.box-center
+	clear both
+	margin 0 auto
+	position relative
+	width widthPage
+
+.content-inner
+	padding-bottom 30px
+	*zoom 1
+	&:before,&:after
+		display table
+		content ""
+		line-height 0
+	&:after
+		clear both
+.container
+	float left
+	width 650px
+.side-right
+	float right
+	width 320px
