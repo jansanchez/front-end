@@ -16,4 +16,10 @@
 		background url('../../../../img/logo.png?version') no-repeat scroll 0 0 transparent
 		background-size @width @height
 		display block
+	ul
+		list-style: none outside none;
+		li
+			float left
+			list-style none outside none
+			padding 0 7px
 
