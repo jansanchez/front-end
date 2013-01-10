@@ -43,12 +43,12 @@ header
 
 #main-menu
 	clear: both;
-	//height: 30px;
 	list-style: none outside none;
 	margin: 0;
-	padding: 0 0 0 210px
+	padding: 0 0 0 220px
 	li
 		float: left;
+		list-style: none outside none;
 		padding: 10px 1px
 		a
 			font-family: 'century', arial;
@@ -61,12 +61,26 @@ header
 			border-width: 1px 1px 0;
 			padding: 7px 7px 6px;
 			&.active,&:hover
-				background: none repeat scroll 0 0 #FFFFFF;
+				color textColor2
+				background: none repeat scroll 0 0 white;
 				border-color borderColor
 				border-radius: 8px 8px 0 0;
 				border-style: solid;
 				border-width: 1px 1px 0;
 				padding: 7px 7px 7px;
+		ul
+			left: 0;
+			padding: 0 0 0 220px;
+			position: absolute;
+			top: 103px;
+			margin: 0;
+			li
+				a
+					color textColor2
+					background: none repeat scroll 0 0 white;
+					&.active,&:hover
+						color textColor2
+						border-color white
 
 footer
 	background none repeat scroll 0 0 footerColor
@@ -79,25 +93,31 @@ footer
 	.visit-also
 		color textColor2
 		float left
-		font 400 $FONT_SIZE/$LINE_HEIGHT arial
-		padding-top 6px
+		font 400 12px/15px Arial,sans-serif
 		width 85px
 	.visit-also-list
 		float left
 		list-style none outside none
 		margin 0
+		padding 0px 0 2px 0
 		width $WIDTH_PAGE - 85px
 		li
 			border-right 1px solid textColor2
 			float left
 			line-height 12px
-			margin-top 6px
+			margin 2px 0 0 0
 			padding 0 5px
 			a
-				font 400 $FONT_SIZE/$LINE_HEIGHT arial
+				font 400 12px/14px Arial,sans-serif
 				text-decoration none
 		.last
 			border medium none
+
+
+
+
+
+
 
 .btnRegister
 	getIconSet(btnRegister)

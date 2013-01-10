@@ -9,7 +9,7 @@ headerColor   = #EFF4FA
 footerColor     = #EFF4FA
 
 linkColor         = #0C2A85
-hoverColor     = #13318d
+hoverColor     = #3158CC
 activeColor     = #666666
 
 linkColor2       = #0C2A85
@@ -18,9 +18,9 @@ hoverColor2   = #173697
 borderColor    = #CCCCCC
 borderColor2  = #DDDDDD
 
-textColor           = #333333  //plomo	
-textColor2        = #666666   //negro
-textColor3        = #999999   //more Negro
+textColor           = #333333  //negro
+textColor2        = #666666   //maso
+textColor3        = #999999   //plomo
 
 btnOutColor    = #E60000
 btnHoverColor= #EB0808

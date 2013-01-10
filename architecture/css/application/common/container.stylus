@@ -5,8 +5,8 @@
 */
 
 #wrapper
-	width widthPage
-	padding paddingWrapper
+	width $WIDTH_PAGE
+	padding $PADDING_WRAPPER
 	margin 0 auto
 	background #FFF
 
