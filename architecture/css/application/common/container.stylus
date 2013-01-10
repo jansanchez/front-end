@@ -5,8 +5,8 @@
 */
 
 #wrapper
-	width 980px
-	padding 0 10px
+	width widthPage
+	padding paddingWrapper
 	margin 0 auto
 	background #FFF
 .content-inner

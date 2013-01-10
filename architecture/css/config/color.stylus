@@ -4,24 +4,24 @@
 * @module css-architecture
 */
 
-BgBodyColor = "#FFFFFF"
-BgHeaderColor = "#EFF4FA"
-BgFooterColor = "#EFF4FA"
+BgBodyColor = #FFFFFF
+BgHeaderColor = #EFF4FA
+BgFooterColor = #EFF4FA
 
-linkColor = "#0C2A85"
-hoverColor = "#13318d"
-activeColor = "#666666"
+linkColor = #0C2A85
+hoverColor = #13318d
+activeColor = #666666
 
-linkColor2 = "#0C2A85"
-hoverColor2 = "#173697"
+linkColor2 = #0C2A85
+hoverColor2 = #173697
 
-borderColor = "#CCCCCC"
-borderColor2 = "#DDDDDD"
+borderColor = #CCCCCC
+borderColor2 = #DDDDDD
 
-textColor = "#333333"
-textColor2 = "#666666"
-textColor3 = "#999999"
+textColor = #333333
+textColor2 = #666666
+textColor3 = #999999
 
-bgBtnColor = "#E60000"
-bgBtnHoverColor = "#eb0808"
+bgBtnColor = #E60000
+bgBtnHoverColor = #EB0808
 

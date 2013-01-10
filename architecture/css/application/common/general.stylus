@@ -5,14 +5,14 @@
 */
 
 body
-	background #EFEFEF
+	background none repeat scroll 0 0 BgBodyColor
+	color textColor2
+	font-family Arial, sans-serif
+	font-size bodyFontSize
+	line-height bodyLineHeight
 	margin 0
-	color #000
-	font-family Arial,sans-serif
-	font-size 12px
-	line-height 14px
 a
-	color #1D46EB
+	color linkColor
 	text-decoration underline
 	outline 0 !important
 p
@@ -48,5 +48,5 @@ option
 	vertical-align middle
 h1,h2,h3
 	margin 0 0 15px
-	font-size 18px
+	font-size 24px
 	line-height 20px

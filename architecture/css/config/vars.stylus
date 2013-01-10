@@ -4,7 +4,13 @@
 * @module css-architecture
 */
 
-width = 980px
+widthPage = 980px
+paddingWrapper = 0 10px
+
+bodyFontSize = 12px
+bodyLineHeight = 14px
+
+
 
 imgPath = "../img/"
 iconSet = "icon-set.png"
