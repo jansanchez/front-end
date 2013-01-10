@@ -5,11 +5,9 @@
 */
 
 body
-	background none repeat scroll 0 0 BgBodyColor
+	background none repeat scroll 0 0 bodyColor
 	color textColor2
-	font-family Arial, sans-serif
-	font-size bodyFontSize
-	line-height bodyLineHeight
+	font 400 $FONT_SIZE/$LINE_HEIGHT arial
 	margin 0
 a
 	color linkColor

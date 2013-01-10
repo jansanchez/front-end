@@ -12,7 +12,7 @@
 
 
 header
-	background none repeat scroll 0 0 BgHeaderColor
+	background none repeat scroll 0 0 headerColor
 	border-color borderColor
 	border-style solid
 	border-width 0 0 1px 0
@@ -20,7 +20,7 @@ header
 	padding 10px 0 0 0
 
 footer
-	background none repeat scroll 0 0 BgHeaderColor
+	background none repeat scroll 0 0 footerColor
 	border-color borderColor
 	border-style solid
 	border-width 1px 0 0 0
@@ -30,14 +30,14 @@ footer
 	.visit-also
 		color textColor2
 		float left
-		font 400 bodyFontSize/bodyLineHeight arial
+		font 400 $FONT_SIZE/$LINE_HEIGHT arial
 		padding-top 6px
 		width 85px
 	.visit-also-list
 		float left
 		list-style none outside none
 		margin 0
-		width widthPage - 85px
+		width $WIDTH_PAGE - 85px
 		li
 			border-right 1px solid textColor2
 			float left
@@ -45,7 +45,7 @@ footer
 			margin-top 6px
 			padding 0 5px
 			a
-				font 400 bodyFontSize/bodyLineHeight arial
+				font 400 $FONT_SIZE/$LINE_HEIGHT arial
 				text-decoration none
 		.last
 			border medium none

@@ -9,7 +9,7 @@ $NUM_COLS       = 12   // Numero de Columnas
 $MARGIN_PAGE = 10px    //Margin Left y Right
 $WIDTH_COL      = ($WIDTH_PAGE/$NUM_COLS) - (2*$MARGIN_PAGE)  //Dimension de cada columna
 
-$PADDING_WRAPPER = 0 10px   //paddingWrapper
+$PADDING_WRAPPER = 20px 10px   //paddingWrapper
 
 $FONT_SIZE = 12px
 $LINE_HEIGHT = 14px
