@@ -1,7 +1,7 @@
 /*Common Module*/
 body{background:none repeat scroll 0 0 #fff;color:#666;font:400 13px/14px Arial,sans-serif;margin:0}
 a{color:#0c2a85;text-decoration:underline;outline:0 !important;}
-a:hover{color:#13318d}
+a:hover{color:#3158cc}
 p{margin:0 0 10px}
 ul{margin:0 0 10px;padding:0}
 input[type="text"]{background:#fff;border-color:#989898 #e7e7e7 #e7e7e7;border-style:solid;border-width:1px;color:#000;font:13px/16px Arial,sans-serif;padding:2px 4px;width:190px}
@@ -32,14 +32,17 @@ header h1 img{display:block}
 .account{float:right;list-style:none outside none;margin:0;padding:0;}
 .account li{border-left:1px solid #ddd;float:left;padding:0 10px}
 .account li:first-child{border:medium none}
-#main-menu{clear:both;list-style:none outside none;margin:0;padding:0 0 0 210px;}
-#main-menu li{float:left;padding:10px 1px;}
+#main-menu{clear:both;list-style:none outside none;margin:0;padding:0 0 0 220px;}
+#main-menu li{float:left;list-style:none outside none;padding:10px 1px;}
 #main-menu li a{font-family:'century',Arial,sans-serif;font-size:16px;text-decoration:none;background:none repeat scroll 0 0 #eff4fa;border-color:#eff4fa;-webkit-border-radius:8px 8px 0 0;-moz-border-radius:8px 8px 0 0;-ms-border-radius:8px 8px 0 0;-o-border-radius:8px 8px 0 0;border-radius:8px 8px 0 0;border-style:solid;border-width:1px 1px 0;padding:7px 7px 6px;}
-#main-menu li a.active,#main-menu li a:hover{background:none repeat scroll 0 0 #fff;border-color:#ccc;-webkit-border-radius:8px 8px 0 0;-moz-border-radius:8px 8px 0 0;-ms-border-radius:8px 8px 0 0;-o-border-radius:8px 8px 0 0;border-radius:8px 8px 0 0;border-style:solid;border-width:1px 1px 0;padding:7px 7px 7px}
+#main-menu li a.active,#main-menu li a:hover{color:#666;background:none repeat scroll 0 0 #fff;border-color:#ccc;-webkit-border-radius:8px 8px 0 0;-moz-border-radius:8px 8px 0 0;-ms-border-radius:8px 8px 0 0;-o-border-radius:8px 8px 0 0;border-radius:8px 8px 0 0;border-style:solid;border-width:1px 1px 0;padding:7px 7px 7px}
+#main-menu li ul{left:0;padding:0 0 0 220px;position:absolute;top:103px;}
+#main-menu li ul li a{color:#666;background:none repeat scroll 0 0 #fff;}
+#main-menu li ul li a.active,#main-menu li ul li a:hover{color:#666;border-color:#fff}
 footer{background:none repeat scroll 0 0 #eff4fa;border-color:#ccc;border-style:solid;border-width:1px 0 0 0;height:431px;padding:10px 0 0 0;}
-footer .visit-also{color:#666;float:left;font:400 13px/14px Arial,sans-serif;padding-top:6px;width:85px}
-footer .visit-also-list{float:left;list-style:none outside none;margin:0;width:895px;}
-footer .visit-also-list li{border-right:1px solid #666;float:left;line-height:12px;margin-top:6px;padding:0 5px;}
-footer .visit-also-list li a{font:400 13px/14px Arial,sans-serif;text-decoration:none}
+footer .visit-also{color:#666;float:left;font:400 12px/15px Arial,sans-serif;width:85px}
+footer .visit-also-list{float:left;list-style:none outside none;margin:0;padding:0 0 2px 0;width:895px;}
+footer .visit-also-list li{border-right:1px solid #666;float:left;line-height:12px;margin:2px 0 0 0;padding:0 5px;}
+footer .visit-also-list li a{font:400 12px/14px Arial,sans-serif;text-decoration:none}
 footer .visit-also-list .last{border:medium none}
 .btnRegister{background:url("imgPathiconSet?version") no-repeat scroll 0  -32px  transparent}
