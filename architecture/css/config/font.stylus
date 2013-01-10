@@ -1,0 +1,8 @@
+/**
+* Color Module
+* @class color
+* @module css-architecture
+*/
+
+arial = Arial, sans-serif
+

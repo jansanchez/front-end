@@ -6,6 +6,7 @@
 
 @import "vars.stylus";
 @import "color.stylus";
+@import "font.stylus";
 @import "sprite.stylus";
 
 

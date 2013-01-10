@@ -4,13 +4,51 @@
 * @module css-architecture
 */
 
-@import "config/config.stylus";
-@import "core/mixin.stylus";
+@import "config/config.stylus"
+@import "core/mixin.stylus"
 
 /*!Common Module*/
-@import "application/common/common.stylus";
+@import "application/common/common.stylus"
 
 
+header
+	background none repeat scroll 0 0 BgHeaderColor
+	border-color borderColor
+	border-style solid
+	border-width 0 0 1px 0
+	height 181px
+	padding 10px 0 0 0
+
+
+
+footer
+	background none repeat scroll 0 0 BgHeaderColor
+	border-color borderColor
+	border-style solid
+	border-width 1px 0 0 0
+	height 431px
+	padding 10px 0 0 0
+
+	.visit-also
+		color textColor2
+		float left
+		font 400 bodyFontSize/bodyLineHeight arial
+		padding-top 6px
+		width 85px
+	.visit-also-list
+		float left
+		list-style none outside none
+		margin 0
+		width widthPage - 85px
+		li
+			border-right 1px solid textColor2
+			float left
+			line-height 12px
+			margin-top 6px
+			padding 0 5px
+			a
+				font 400 bodyFontSize/bodyLineHeight arial
+				text-decoration none
 
 .btnRegister
 	getIconSet(btnRegister)

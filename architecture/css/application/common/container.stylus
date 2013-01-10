@@ -9,6 +9,14 @@
 	padding paddingWrapper
 	margin 0 auto
 	background #FFF
+
+.box-center
+	clear both
+	margin 0 auto
+	position relative
+	width widthPage
+
+
 .content-inner
 	padding-bottom 30px
 	*zoom 1
@@ -24,3 +32,5 @@
 .side-right
 	float right
 	width 320px
+
+
