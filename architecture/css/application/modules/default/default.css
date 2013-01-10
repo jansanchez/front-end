@@ -1,2 +1,4 @@
 /*Index Module*/
-.index{display:block}
+.copyright{background:none repeat scroll 0 0 #fff;height:50px;width:100%;}
+.copyright .logo-small{height:30px;width:76px;background:url("../../../../img/logo.png?version") no-repeat scroll 0 0 transparent;background-size:76px 30px;display:block}
+

@@ -3,3 +3,23 @@
 * @class util
 * @module css-architecture
 */
+
+/**
+* padding-top
+* @submodule padding-top
+* @main default
+*/
+for i in 10...(100 + 10)
+	if i % 10 == 0
+		.pt{i}
+			padding-top (i -1)px
+
+/**
+* padding-bottom
+* @submodule padding-bottom
+* @main default
+*/
+for i in 10...(100 + 10)
+	if i % 10 == 0
+		.pb{i}
+			padding-bottom (i -1)px
