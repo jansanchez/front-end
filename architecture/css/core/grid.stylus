@@ -37,7 +37,7 @@ for i in 1...($NUM_COLS +1)  //Estilo para las columnas
 	width $WIDTH_PAGE
 	padding $PADDING_WRAPPER
 	margin 0 auto
-	background BgBodyColor
+	background bodyColor
 
 .box-center
 	clear both
