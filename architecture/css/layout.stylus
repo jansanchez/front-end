@@ -73,6 +73,7 @@ header
 			padding: 0 0 0 220px;
 			position: absolute;
 			top: 103px;
+			margin: 0;
 			li
 				a
 					color textColor2

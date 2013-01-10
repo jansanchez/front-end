@@ -36,7 +36,7 @@ header h1 img{display:block}
 #main-menu li{float:left;list-style:none outside none;padding:10px 1px;}
 #main-menu li a{font-family:'century',Arial,sans-serif;font-size:16px;text-decoration:none;background:none repeat scroll 0 0 #eff4fa;border-color:#eff4fa;-webkit-border-radius:8px 8px 0 0;-moz-border-radius:8px 8px 0 0;-ms-border-radius:8px 8px 0 0;-o-border-radius:8px 8px 0 0;border-radius:8px 8px 0 0;border-style:solid;border-width:1px 1px 0;padding:7px 7px 6px;}
 #main-menu li a.active,#main-menu li a:hover{color:#666;background:none repeat scroll 0 0 #fff;border-color:#ccc;-webkit-border-radius:8px 8px 0 0;-moz-border-radius:8px 8px 0 0;-ms-border-radius:8px 8px 0 0;-o-border-radius:8px 8px 0 0;border-radius:8px 8px 0 0;border-style:solid;border-width:1px 1px 0;padding:7px 7px 7px}
-#main-menu li ul{left:0;padding:0 0 0 220px;position:absolute;top:103px;}
+#main-menu li ul{left:0;padding:0 0 0 220px;position:absolute;top:103px;margin:0;}
 #main-menu li ul li a{color:#666;background:none repeat scroll 0 0 #fff;}
 #main-menu li ul li a.active,#main-menu li ul li a:hover{color:#666;border-color:#fff}
 footer{background:none repeat scroll 0 0 #eff4fa;border-color:#ccc;border-style:solid;border-width:1px 0 0 0;height:431px;padding:10px 0 0 0;}
