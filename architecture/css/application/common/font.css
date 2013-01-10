@@ -1,6 +1,6 @@
 @font-face{
-		font-family:'MyriadWebPro';
+		font-family:'century';
 		font-weight:normal;font-style:normal
-		src:url(../wf/myriadwebpro/myriadwebpro-webfont.eot?#iefix) format('embedded-opentype'),src:url(../wf/myriadwebpro/myriadwebpro-webfont.eot?version);
-		url(../wf/myriadwebpro/myriadwebpro-webfont.ttf?version) format('truetype');
+		src:url(../../../wf/century/century-webfont.eot?#iefix) format('embedded-opentype'),src:url(../../../wf/century/century-webfont.eot?version);
+		url(../../../wf/century/century-webfont.ttf?version) format('truetype');
 	}

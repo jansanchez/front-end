@@ -5,13 +5,11 @@
 */
 
 @css{
-
 	@font-face{
-		font-family:'MyriadWebPro';
-		font-weight:normal;font-style:normal
-		src:url(../wf/myriadwebpro/myriadwebpro-webfont.eot?#iefix) format('embedded-opentype'),
-		src:url(../wf/myriadwebpro/myriadwebpro-webfont.eot?version);
-		url(../wf/myriadwebpro/myriadwebpro-webfont.ttf?version) format('truetype');
+	font-family:'century';
+	src:url(../wf/century/century-webfont.eot?version);
+	src:url(../wf/century/century-webfont.eot?#iefix) format('embedded-opentype'),
+	url(../wf/century/century-webfont.ttf?version) format('truetype');
+	font-weight:normal;font-style:normal;
 	}
-
 }
