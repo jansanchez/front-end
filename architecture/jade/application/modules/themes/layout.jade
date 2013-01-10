@@ -1,19 +1,11 @@
 include ../../configs/global.jade
-doctype 5
-html(lang='es')
-	head
-		include partials/head.jade
-	body
+include partials/doctype.jade
+head
+	include partials/head.jade
+body
+	header
 		include partials/header.jade
-		
-		#wrapper
-			div.hola
-				p Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam cursus. Morbi ut mi. Nullam enim leo, 
-				| egestas id, condimentum at, laoreet mattis, massa. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-				| Nam cursus. Morbi ut mi. Nullam enim leo, egestas id, condimentum at, laoreet mattis, massa.
-				| egestas id, condimentum at, laoreet mattis, massa. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-				| Nam cursus. Morbi ut mi. Nullam enim leo, egestas id, condimentum at, laoreet mattis, massa.
-				| egestas id, condimentum at, laoreet mattis, massa. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-				| Nam cursus. Morbi ut mi. Nullam enim leo, egestas id, condimentum at, laoreet mattis, massa.
-
+	#wrapper
+		block content
+	footer
 		include partials/footer.jade
