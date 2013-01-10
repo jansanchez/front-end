@@ -1,0 +1,10 @@
+script(src="js/libs/modernizr-respond.js")
+link(type='text/css', rel='stylesheet', href='#{static_url}css/layout.css?#{version}')
+link(type='text/css', rel='stylesheet', href='#{static_url}css/base.css?#{version}')
+link(type='text/css', rel='stylesheet', href='#{static_url}css/application/modules/default/default.css?#{version}')
+<!--[if lt IE 9]>
+script(src="#{static_url}js/lib/htm l5shiv.js")
+<![endif]-->
+script(type="text/javascript", src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js")
+script(type='text/javascript')
+	window.jQuery || document.write(unescape('%3Cscript src="#{static_url}js/jquery.min.js" type="text/javascript"%3E%3C/script%3E'))
