@@ -23,8 +23,18 @@ header
 		line-height 0
 		margin 0
 		width 156px
+		float left
 		img
 			display block
+
+#main-menu
+	clear: both;
+	height: 39px;
+	list-style: none outside none;
+	padding 10px 0 0 0
+	li
+		float: left;
+		padding: 0 10px;
 
 footer
 	background none repeat scroll 0 0 footerColor
