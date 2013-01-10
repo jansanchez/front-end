@@ -14,6 +14,5 @@ $PADDING_WRAPPER = 20px 10px   //paddingWrapper
 $FONT_SIZE = 12px
 $LINE_HEIGHT = 14px
 
-
 $IMG_PATH = "../img/"
 $ICON_SET = "icon-set.png"

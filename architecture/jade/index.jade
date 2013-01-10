@@ -1,19 +1,28 @@
-- version = Math.floor((Math.random()*99)+1)
-- urlStatic = '../'
+- version = 'v='+Math.floor((Math.random()*99)+1)
+- page_url = 'http://local.perured.pe/'
+- page_name = 'Perured.pe'
+- static_url = '../'
+- img_url = '#{static_url}/img/'
 - referer = 'ref=perured'
-//- urlStatic = 'http://local.perured.pe/''
+- img_url = '../img/'
+//- static_url = 'http://local.perured.pe/
 doctype 5
 html(lang='es')
 	head
 		title('Front-End Architecture')
-		link(type='text/css', rel='stylesheet', href=urlStatic+'css/layout.css?v=#{version}')
-		link(type='text/css', rel='stylesheet', href=urlStatic+'css/base.css?v=#{version}')
-		link(type='text/css', rel='stylesheet', href=urlStatic+'css/application/modules/default/default.css?v=#{version}')
+		link(type='text/css', rel='stylesheet', href='#{static_url}css/layout.css?#{version}')
+		link(type='text/css', rel='stylesheet', href='#{static_url}css/base.css?#{version}')
+		link(type='text/css', rel='stylesheet', href='#{static_url}css/application/modules/default/default.css?#{version}')
 		script(type="text/javascript", src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js")
 		script(type='text/javascript')
-			window.jQuery || document.write(unescape('%3Cscript src="js/jquery.min.js" type="text/javascript"%3E%3C/script%3E'))
+			window.jQuery || document.write(unescape('%3Cscript src="#{static_url}js/jquery.min.js" type="text/javascript"%3E%3C/script%3E'))
 	body
 		header
+			.box-center
+				h1 
+					a(href="#{page_url}", title="#{page_name}")
+						img(alt="#{page_name}", src="#{img_url}logo.png?#{version}", width="156", height="65")
+						|Perured.pe
 
 		#wrapper
 			div.hola
