@@ -5,7 +5,7 @@
 */
 @import "../config/vars.stylus"
 
-for i in 1...($NUM_COLS +1)  //Estilo para las columnas
+for i in 1...($NUM_COLS +1)  //-Estilo para las columnas
 	.col{i}
 		float left
 		margin 0 (2*$MARGIN_PAGE) 0 0
@@ -20,11 +20,11 @@ for i in 1...($NUM_COLS +1)  //Estilo para las columnas
 			&:last-child
 				margin 0
 
-
-.cend  //Estilo para la columna final de una fila
+// Estilo para la columna final de una fila
+.cend  
 	margin-right 0
-
-.row    //Estilo para definir una fila
+// Estilo para definir una fila
+.row    
 	width 100%
 	overflow hidden
 	margin 0 0 1em 0
