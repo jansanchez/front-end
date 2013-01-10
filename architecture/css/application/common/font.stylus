@@ -4,12 +4,11 @@
 * @module css-architecture
 */
 
-@css{
-	@font-face{
+
+@font-face{
 	font-family:'century';
 	src:url(../wf/century/century-webfont.eot?version);
 	src:url(../wf/century/century-webfont.eot?#iefix) format('embedded-opentype'),
 	url(../wf/century/century-webfont.ttf?version) format('truetype');
 	font-weight:normal;font-style:normal;
-	}
 }

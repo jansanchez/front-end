@@ -1,4 +1,6 @@
 /*Index Module*/
 .copyright{background:none repeat scroll 0 0 #fff;height:50px;width:100%;}
 .copyright .logo-small{height:30px;width:76px;background:url("../../../../img/logo.png?version") no-repeat scroll 0 0 transparent;background-size:76px 30px;display:block}
+.copyright ul{list-style:none outside none;}
+.copyright ul li{float:left;list-style:none outside none;padding:0 7px}
 
