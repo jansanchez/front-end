@@ -32,5 +32,6 @@ footer .visit-also{color:#666;float:left;font:400 12px/14px Arial,sans-serif;pad
 footer .visit-also-list{float:left;list-style:none outside none;margin:0;width:895px;}
 footer .visit-also-list li{border-right:1px solid #666;float:left;line-height:12px;margin-top:6px;padding:0 5px;}
 footer .visit-also-list li a{font:400 12px/14px Arial,sans-serif;text-decoration:none}
+footer .visit-also-list .last{border:medium none}
 .btnRegister{background:url("../img/icon-set.png?version") no-repeat scroll 0  -32px  transparent}
 

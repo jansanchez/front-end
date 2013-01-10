@@ -49,6 +49,8 @@ footer
 			a
 				font 400 bodyFontSize/bodyLineHeight arial
 				text-decoration none
+		.last
+			border medium none
 
 .btnRegister
 	getIconSet(btnRegister)
