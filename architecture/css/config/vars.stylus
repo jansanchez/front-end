@@ -4,5 +4,8 @@
 * @module css-architecture
 */
 
+width = 980px
+
 imgPath = "../img/"
 iconSet = "icon-set.png"
+
