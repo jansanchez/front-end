@@ -113,5 +113,11 @@ footer
 		.last
 			border medium none
 
+
+
+@import "application/modules/default/default.stylus"
+
+
+
 .btnRegister
 	getIconSet(btnRegister)

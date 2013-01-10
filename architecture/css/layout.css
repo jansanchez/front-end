@@ -45,4 +45,5 @@ footer .visit-also-list{float:left;list-style:none outside none;margin:0;padding
 footer .visit-also-list li{border-right:1px solid #666;float:left;line-height:12px;margin:2px 0 0 0;padding:0 5px;}
 footer .visit-also-list li a{font:400 12px/14px Arial,sans-serif;text-decoration:none}
 footer .visit-also-list .last{border:medium none}
+.index{display:block}
 .btnRegister{background:url("imgPathiconSet?version") no-repeat scroll 0  -32px  transparent}
