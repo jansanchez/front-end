@@ -34,16 +34,16 @@ for i in 1...($NUM_COLS +1)  //Estilo para las columnas
 // ------------------------------
 
 #wrapper
-	width widthPage
-	padding paddingWrapper
+	width $WIDTH_PAGE
+	padding $PADDING_WRAPPER
 	margin 0 auto
-	background #FFF
+	background BgBodyColor
 
 .box-center
 	clear both
 	margin 0 auto
 	position relative
-	width widthPage
+	width $WIDTH_PAGE
 
 .content-inner
 	padding-bottom 30px

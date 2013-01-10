@@ -37,7 +37,7 @@ footer
 		float left
 		list-style none outside none
 		margin 0
-		width widthPage - 85px
+		width $WIDTH_PAGE - 85px
 		li
 			border-right 1px solid textColor2
 			float left
