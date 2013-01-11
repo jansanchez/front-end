@@ -16,8 +16,9 @@ $LINE_HEIGHT = 14px
 
 $IMG_PATH = "../../../../img/"
 
-$ICON_SET = "icon-set.png"
-$ICON_SET2 = "icon-set2.png"
-$ICON_SET3 = "icon-set3.png"
-$ICON_SET4 = "icon-set4.png"
+$ICON_SET = "icon-set"  //Existen actualmente icon-set2, icon-set3 ... esto seran controloados en el mixin por paramentro
+$ICON_EXT = "png"
+//-$ICON_SET2 = "icon-set2.png"
+//-$ICON_SET3 = "icon-set3.png"
+//-$ICON_SET4 = "icon-set4.png"
 

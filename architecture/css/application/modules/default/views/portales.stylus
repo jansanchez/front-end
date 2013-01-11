@@ -7,7 +7,7 @@
 		height 95px
 		margin 2px auto
 		display block
-		setIconSet3()
+		setIconSet("3")
 		&.elcomerciope
 			setPosition(elcomerciope)
 		&.rppnoticias

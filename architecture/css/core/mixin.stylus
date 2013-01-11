@@ -7,29 +7,11 @@
 get(array, key)
 	return (pair[1] pair[2]) if pair[0] == key for pair in array
 
-getIconSet(arreglo)
-	background url($IMG_PATH+$ICON_SET"?version") no-repeat scroll get(arreglo, x) get(arreglo, y) transparent
+getIconSet(arr, num='')
+	background url($IMG_PATH+$ICON_SET+num+"."+$ICON_EXT"?version") no-repeat scroll get(arr, x) get(arr, y) transparent
 
-getIconSet2(arreglo)
-	background url($IMG_PATH+$ICON_SET2"?version") no-repeat scroll get(arreglo, x) get(arreglo, y) transparent
-
-getIconSet3(arreglo)
-	background url($IMG_PATH+$ICON_SET3"?version") no-repeat scroll get(arreglo, x) get(arreglo, y) transparent
-
-getIconSet4(arreglo)
-	background url($IMG_PATH+$ICON_SET4"?version") no-repeat scroll get(arreglo, x) get(arreglo, y) transparent
-
-setIconSet()
-	background url($IMG_PATH+$ICON_SET"?version") no-repeat scroll 0 0 transparent
-
-setIconSet2()
-	background url($IMG_PATH+$ICON_SET2"?version") no-repeat scroll 0 0 transparent
-
-setIconSet3()
-	background url($IMG_PATH+$ICON_SET3"?version") no-repeat scroll 0 0 transparent
-
-setIconSet4()
-	background url($IMG_PATH+$ICON_SET4"?version") no-repeat scroll 0 0 transparent
+setIconSet(num='')
+	background url($IMG_PATH+$ICON_SET+num"."+$ICON_EXT"?version") no-repeat scroll 0 0 transparent
 
 setPosition(arreglo)
 	background-position get(arreglo, x) get(arreglo, y)

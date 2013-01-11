@@ -1,6 +1,6 @@
 /*Index Module*/
 .pasos-de-uso{padding:15px 0 0 0;}
-.pasos-de-uso .video-pasos{width:286px;height:166px;display:block;background:url("../../../../img/icon-set4.png?version") no-repeat scroll 0 0 transparent;background-position:0  0;float:left}
+.pasos-de-uso .video-pasos{width:286px;height:166px;display:block;background-position:0  0 ;float:left}
 .pasos-de-uso ul{float:right;}
 .pasos-de-uso ul li{list-style:none outside none;width:155px;height:155px;border-color:#ddd;border-style:solid;border-width:0 0 0 1px;float:left;margin:3px 8px 0 0}
 .pasos-de-uso ul li:first-child{margin:3px 8px 0 0;border-width:0 0 0 1px}
@@ -9,47 +9,48 @@
 .pasos-de-uso ul .step-icon{clear:both;display:block;height:50px;width:50px;background:url("../../../../img/icon-set.png?version") no-repeat scroll 0 0 transparent}
 .red-home{list-style:none outside none;margin:0 0 10px 0;}
 .red-home li{border-color:#ddd;border-style:solid;border-width:1px;float:left;height:93px;list-style:none outside none;margin:10px 15px 0 0;width:123px;}
-.red-home li a{width:123px;height:93px;display:block;font-size:0;line-height:0;text-align:center;*text-indent:-9999px;background:url("../../../../img/icon-set3.png?version") no-repeat scroll 0 0 transparent;}
-.red-home li a.elcomerciope{background-position:0  0}
-.red-home li a.rppnoticias{background-position:-125px  0}
-.red-home li a.perucom{background-position:-250px  0}
-.red-home li a.peru21{background-position:-375px  0}
-.red-home li a.trome{background-position:-500px  0}
-.red-home li a.depor{background-position:0  -95px}
-.red-home li a.correo{background-position:-125px  -95px}
-.red-home li a.studio92{background-position:-250px  -95px}
-.red-home li a.gestion{background-position:-375px  -95px}
-.red-home li a.ojo{background-position:-500px  -95px}
-.red-home li a.elbocon{background-position:0  -190px}
-.red-home li a.correo{background-position:-125px  -95px}
-.red-home li a.oxigeno{background-position:-125px  -190px}
-.red-home li a.aja{background-position:-250px  -190px}
-.red-home li a.publimetro{background-position:-375px  -190px}
-.red-home li a.capital{background-position:-500px  -190px}
-.red-home li a.felicidad{background-position:0  -285px}
-.red-home li a.bravaza{background-position:-125px  -285px}
-.red-home li a.lazona{background-position:-250px  -285px}
+.red-home li a{width:123px;height:93px;display:block;font-size:0;line-height:0;text-align:center;*text-indent:-9999px;}
+.red-home li a.elcomerciope{background-position:0  0 }
+.red-home li a.rppnoticias{background-position:-125px  0 }
+.red-home li a.perucom{background-position:-250px  0 }
+.red-home li a.peru21{background-position:-375px  0 }
+.red-home li a.trome{background-position:-500px  0 }
+.red-home li a.depor{background-position:0  -95px }
+.red-home li a.correo{background-position:-125px  -95px }
+.red-home li a.studio92{background-position:-250px  -95px }
+.red-home li a.gestion{background-position:-375px  -95px }
+.red-home li a.ojo{background-position:-500px  -95px }
+.red-home li a.elbocon{background-position:0  -190px }
+.red-home li a.correo{background-position:-125px  -95px }
+.red-home li a.oxigeno{background-position:-125px  -190px }
+.red-home li a.aja{background-position:-250px  -190px }
+.red-home li a.publimetro{background-position:-375px  -190px }
+.red-home li a.capital{background-position:-500px  -190px }
+.red-home li a.felicidad{background-position:0  -285px }
+.red-home li a.bravaza{background-position:-125px  -285px }
+.red-home li a.lazona{background-position:-250px  -285px }
 .red-home li:first-child{margin:10px 15px 0 0}
 .panel-port{overflow:hidden;height:190px;border:1px solid #ddd;}
 .panel-port span{width:125px;height:95px;margin:2px auto;display:block;background:url("../../../../img/icon-set3.png?version") no-repeat scroll 0 0 transparent;}
-.panel-port span.elcomerciope{background-position:0  0}
-.panel-port span.rppnoticias{background-position:-125px  0}
-.panel-port span.perucom{background-position:-250px  0}
-.panel-port span.peru21{background-position:-375px  0}
-.panel-port span.trome{background-position:-500px  0}
-.panel-port span.depor{background-position:0  -95px}
-.panel-port span.correo{background-position:-125px  -95px}
-.panel-port span.studio92{background-position:-250px  -95px}
-.panel-port span.gestion{background-position:-375px  -95px}
-.panel-port span.ojo{background-position:-500px  -95px}
-.panel-port span.elbocon{background-position:0  -190px}
-.panel-port span.correo{background-position:-125px  -95px}
-.panel-port span.oxigeno{background-position:-125px  -190px}
-.panel-port span.aja{background-position:-250px  -190px}
-.panel-port span.publimetro{background-position:-375px  -190px}
-.panel-port span.capital{background-position:-500px  -190px}
-.panel-port span.felicidad{background-position:0  -285px}
-.panel-port span.bravaza{background-position:-125px  -285px}
-.panel-port span.lazona{background-position:-250px  -285px}
+.panel-port span.elcomerciope{background-position:0  0 }
+.panel-port span.rppnoticias{background-position:-125px  0 }
+.panel-port span.perucom{background-position:-250px  0 }
+.panel-port span.peru21{background-position:-375px  0 }
+.panel-port span.trome{background-position:-500px  0 }
+.panel-port span.depor{background-position:0  -95px }
+.panel-port span.correo{background-position:-125px  -95px }
+.panel-port span.studio92{background-position:-250px  -95px }
+.panel-port span.gestion{background-position:-375px  -95px }
+.panel-port span.ojo{background-position:-500px  -95px }
+.panel-port span.elbocon{background-position:0  -190px }
+.panel-port span.correo{background-position:-125px  -95px }
+.panel-port span.oxigeno{background-position:-125px  -190px }
+.panel-port span.aja{background-position:-250px  -190px }
+.panel-port span.publimetro{background-position:-375px  -190px }
+.panel-port span.capital{background-position:-500px  -190px }
+.panel-port span.felicidad{background-position:0  -285px }
+.panel-port span.bravaza{background-position:-125px  -285px }
+.panel-port span.lazona{background-position:-250px  -285px }
 .panel-port .desc{padding:5px}
 .row .panel-port:last-child{margin:0}
+

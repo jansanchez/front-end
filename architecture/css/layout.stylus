@@ -29,7 +29,6 @@ header
 		img
 			display block
 
-
 .account
 	float: right;
 	list-style: none outside none;

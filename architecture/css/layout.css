@@ -19,8 +19,6 @@ h3{color:#333;font-size:20px;font-weight:400;line-height:21px}
 .input-xsmall{width:38px !important}
 .input-medium{width:126px !important}
 .input-large{width:290px !important}
-.lt-ie9 .btn{filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#FF0000', endColorstr='#E60000',GradientType=0);*zoom:1;}
-.lt-ie9 .btn:hover{filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#E60000', endColorstr='#FF0000',GradientType=0)}
 .pt10{padding-top:10px}
 .pt20{padding-top:20px}
 .pt30{padding-top:30px}
@@ -41,6 +39,9 @@ h3{color:#333;font-size:20px;font-weight:400;line-height:21px}
 .pb80{padding-bottom:80px}
 .pb90{padding-bottom:90px}
 .pb100{padding-bottom:100px}
+.lt-ie9 .btn{filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#FF0000', endColorstr='#E60000',GradientType=0);*zoom:1;}
+.lt-ie9 .btn:hover{filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#E60000', endColorstr='#FF0000',GradientType=0)}
+.lt-ie8 .row .cend,.lt-ie9 .row .cend{margin:0}
 header{background:none repeat scroll 0 0 #eff4fa;border-color:#ccc;border-style:solid;border-width:0 0 1px 0;height:102px;padding:15px 0 0 0;}
 header li{margin:0}
 header h1{font-size:0;line-height:0;margin:0;width:156px;float:left;}
@@ -84,3 +85,4 @@ footer .visit-also-list .last{border:medium none}
 .copyright li:first-child{border:none}
 .copyright .last{float:right;border:none}
 .copyright .book-claims{background:url("../../../../img/icon-set.png?version") no-repeat scroll -362px  -24px  transparent;font:10px/15px Arial,sans-serif;height:15px;padding-left:42px;position:absolute;right:164px;top:9px}
+

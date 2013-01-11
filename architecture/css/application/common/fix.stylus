@@ -10,3 +10,7 @@
 		*zoom 1
 		&:hover
 			filter unquote("progid:DXImageTransform.Microsoft.gradient( startColorstr='#E60000', endColorstr='#FF0000',GradientType=0)")
+.lt-ie8, .lt-ie9
+	.row
+		.cend
+			margin 0

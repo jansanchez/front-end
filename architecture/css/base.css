@@ -64,7 +64,6 @@ iframe{display:block}
 .row .col12:last-child{margin:0}
 .row .col50{float:left;margin:0 20px 0 0;width:480px;overflow:hidden;}
 .row .col50:last-child{margin:0}
-.cend{margin-right:0}
 .row{margin-bottom:25px;*zoom:1;}
 .row:before,.row:after{display:table;content:"";line-height:0}
 .row:after{clear:both}
@@ -86,3 +85,4 @@ iframe{display:block}
 .container{float:left;width:650px}
 .side-right{float:right;width:320px}
 /*Hack Module*/
+
