@@ -10,6 +10,12 @@
 .red-home li a.trome{background-position:-500px  0}
 .red-home li a.depor{background-position:0  -95px}
 .red-home li a.correo{background-position:-125px  -95px}
+.red-home li a.studio92{background-position:-250px  -95px}
+.red-home li a.gestion{background-position:-375px  -95px}
+.red-home li a.ojo{background-position:-500px  -95px}
+.red-home li a.correo{background-position:-125px  -95px}
+.red-home li a.oxigeno{background-position:0  -190px}
+.red-home li a.aja{background-position:-125px  -190px}
 .panel-port{overflow:hidden;width:100%;height:190px;border:1px solid #ddd;}
 .panel-port span{width:125px;height:95px;margin:2px auto}
 .panel-port .desc{padding:5px}
