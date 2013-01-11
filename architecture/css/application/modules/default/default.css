@@ -83,15 +83,3 @@
 .row .panel-port:last-child{margin:0}
 /*Como Anunciar Module*/
 /*Promociones Module*/
-.sidebar h3{border-color:#ddd;border-style:solid;border-width:0 0 1px 0;padding:0 0 14px 0}
-.sidebar .anuncio{word-wrap:break-word;padding:5px 0 0;}
-.sidebar .anuncio a{text-decoration:none}
-.sidebar .anuncio .demo-anuncio{font-family:Arial,sans-serif;border-color:#ddd;border-style:solid;border-width:1px;height:105px;margin:0 0 10px;padding:6px;}
-.sidebar .anuncio .demo-anuncio a{display:block;float:left;font-size:11px;color:#1b2fc4;padding:0 0 0 5px;text-decoration:underline;}
-.sidebar .anuncio .demo-anuncio a:hover{color:#0c2a85}
-.sidebar .anuncio .demo-anuncio .title{color:#1b2fc4;font-size:15px;font-weight:700;line-height:14px;float:left}
-.sidebar .anuncio .demo-anuncio p{color:#000;float:left;font-size:11px;margin:0;padding:0 0 0 5px;width:210px;display:block}
-.sidebar .anuncio .demo-anuncio .logo-small{height:65px;margin:15px 0 0}
-.sidebar .conoce{height:37px;margin:25px 0 0;padding:10px 5px 5px 50px;background:url("../../../../img/icon-set.png?version") no-repeat scroll 0 0 transparent;background-position:-360px  -150px;background-color:#e6e8ec}
-.sidebar .banner{width:306;height:128;display:block;margin:25px 0 0 0}
-.soloTexto{width:98% !important;padding:0 0 0 5px}
