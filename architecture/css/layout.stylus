@@ -108,6 +108,7 @@ footer
 .copyright
 	background white
 	height 50px
+	color textColor
 	.logo-small
 		height 30px
 		width 76px
@@ -115,13 +116,25 @@ footer
 		background-size @width @height
 		display block
 		float left
+	a
+		color textColor
+		display block
+		text-decoration none
+		&:hover
+			text-decoration underline
 	ul
+		color textColor
+		float left
+		font 10px/12px Arial,sans-serif
 		list-style none
 		margin 0
+	li
+		border-right 1px solid textColor
 		float left
-		li
-			float left
-			padding 0 7px
+		padding 0 7px
+		&:first-child
+			border none
+
 
 
 
