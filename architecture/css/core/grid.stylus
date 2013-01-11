@@ -55,7 +55,7 @@
 	background bodyColor
 	margin 0 auto
 	padding $PADDING_WRAPPER
-	width $WIDTH_PAGE - (2*$MARGIN_PAGE)
+	width $WIDTH_PAGE
 	*zoom 1
 	&:before,&:after
 		display table

@@ -72,7 +72,7 @@ iframe{display:block}
 .grid8{width:54%}
 .grid4{width:29%;}
 .grid4 + .grid8{margin-left:17%}
-#wrapper{background:#fff;margin:0 auto;padding:40px 10px;width:960px;*zoom:1;}
+#wrapper{background:#fff;margin:0 auto;padding:40px 0;width:980px;*zoom:1;}
 #wrapper:before,#wrapper:after{display:table;content:"";line-height:0}
 #wrapper:after{clear:both}
 .box-center{margin:0 auto;position:relative;width:980px;*zoom:1;}
@@ -84,3 +84,4 @@ iframe{display:block}
 .container{float:left;width:650px}
 .side-right{float:right;width:320px}
 /*Hack Module*/
+
