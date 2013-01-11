@@ -11,8 +11,8 @@ input:-moz-placeholder{color:#888}
 select{color:#000;display:block;font:12px/19px Arial,sans-serif;height:22px;padding:1px;width:200px}
 select[disabled]{background:#ccc;color:#888}
 option{border-top:1px solid #ddd;overflow:hidden;padding:2px 5px;vertical-align:middle}
-h1,h2,h3{margin:0 0 15px}
-h2{font-size:24px;line-height:25px}
+h1,h2,h3{font-family:'century',Arial,sans-serif;margin:0 0 15px}
+h2{color:#333;font-size:24px;line-height:25px;border-color:#ddd;border-style:solid;border-width:0 0 1px 0;padding:0 0 10px 0}
 h3{color:#333;font-size:20px;font-weight:400;line-height:21px}
 @font-face{font-family:'century';src:url("../wf/century/century-webfont.eot?version");src:url("../wf/century/century-webfont.eot?#iefix") format('embedded-opentype'),url("../wf/century/century-webfont.ttf?version") format('truetype');font-weight:normal;font-style:normal}
 .input-small{width:69px !important}
@@ -56,19 +56,21 @@ header h1 img{display:block}
 #main-menu li{display:block;float:left;height:37px;padding:0 1px;}
 #main-menu li a{background:#eff4fa;border-color:#eff4fa;-webkit-border-radius:8px 8px 0 0;-moz-border-radius:8px 8px 0 0;-ms-border-radius:8px 8px 0 0;-o-border-radius:8px 8px 0 0;border-radius:8px 8px 0 0;border-style:solid;border-width:1px 1px 0;display:block;font-family:'century',Arial,sans-serif,sans-serif;font-size:16px;line-height:23px;padding:7px 7px 6px;text-decoration:none;}
 #main-menu li a.active,#main-menu li a:hover{color:#666;background:#fff;border-color:#ccc;-webkit-border-radius:8px 8px 0 0;-moz-border-radius:8px 8px 0 0;-ms-border-radius:8px 8px 0 0;-o-border-radius:8px 8px 0 0;border-radius:8px 8px 0 0;border-style:solid;border-width:1px 1px 0;padding:7px 7px 7px}
-footer{background:none repeat scroll 0 0 #eff4fa;border-color:#ccc;border-style:solid;border-width:1px 0 0 0;height:431px;}
+footer{background:none repeat scroll 0 0 #eff4fa;border-color:#ccc;border-style:solid;border-width:1px 0 0 0;height:431px;padding-bottom:8px;}
 footer li{margin:0}
-footer .visit-also{color:#666;float:left;font:400 12px/15px Arial,sans-serif;width:85px}
+footer .visit-also{color:#666;float:left;font:400 12px/15px Arial,sans-serif;width:85px;padding-top:2px}
 footer .visit-also-list{float:left;list-style:none outside none;margin:0;padding:0 0 2px 0;width:895px;}
 footer .visit-also-list li{border-right:1px solid #666;float:left;line-height:12px;margin:2px 0 0 0;padding:0 5px;}
 footer .visit-also-list li a{font:400 12px/14px Arial,sans-serif;text-decoration:none}
 footer .visit-also-list .last{border:medium none}
-.copyright{background:#fff;color:#333;height:30px;padding:10px 0;}
+.copyright{background:#fff;color:#333;height:30px;padding:10px 0;margin-bottom:6px;}
 .copyright .logo-small{height:30px;width:76px;background:url("../../../../img/logo.png?version") no-repeat scroll 0 0 transparent;background-size:76px 30px;display:block;float:left}
 .copyright a{color:#333;display:block;text-decoration:none;}
 .copyright a:hover{text-decoration:underline}
-.copyright ul{color:#333;float:left;font:10px/12px Arial,sans-serif;list-style:none;margin:0}
+.copyright ul{color:#333;float:left;font:10px/12px Arial,sans-serif;list-style:none;margin:0 0 0 16px;padding-top:10px;width:888px}
 .copyright li{border-right:1px solid #333;float:left;padding:0 7px;}
 .copyright li:first-child{border:none}
+.copyright .last{float:right;border:none}
+.copyright .book-claims{background:url("../img/icon-set.png?version") no-repeat -362px -24px;font:10px/15px Arial,sans-serif;height:15px;padding-left:42px;position:absolute;right:164px;top:9px}
 .btnRegister{background:url("imgPathiconSet?version") no-repeat scroll 0  -32px  transparent}
 
