@@ -6,6 +6,7 @@
 
 arial = Arial, sans-serif
 
+h0 = 48px
 h1 = 0px
 h2 = 24px
 h3 = 20px

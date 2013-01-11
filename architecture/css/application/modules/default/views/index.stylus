@@ -18,15 +18,46 @@
 		li
 			list-style: none outside none;
 			width 155px
-			height 155px
-			border-color borderColor2
+			height 135px
+			border-color borderColor4
 			border-style solid
 			border-width 0px 0px 0px 1px
 			float left
 			margin 3px 8px 0 0
+			position: relative;
+			padding: 20px 0 0;
 		li:first-child
 			margin 3px 8px 0 0
 			border-width 0 0 0 1px
+		.step
+			display block
+			font-size h0
+			line-height @font-size
+			float left
+			margin 0 0 0 15px
+			font-weight 700
+			height: 55px;
+		.step-text
+			display: block;
+			float: left;
+			margin: 0 0 0 10px;
+			width: 90px;
+			padding: 10px 0 1px
+		.step-icon
+			clear both
+			display: block;
+			height: 50px;
+			margin: 0 auto;
+			width: 50px;
+			setIconSet()
+		#step-registrate
+			setPosition(registrate)
+		#step-disena
+			setPosition(disena)
+		#step-planifica
+			setPosition(planifica)
+		#step-monitorea
+			setPosition(monitorea)
 
 .red-home
 	list-style none outside none
