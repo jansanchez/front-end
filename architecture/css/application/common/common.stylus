@@ -10,7 +10,7 @@
 @import "font.stylus";
 /*!Input Module*/
 @import "input.stylus";
-/*!Fix Module*/
-@import "fix.stylus";
 /*!Util Module*/
 @import "util.stylus";
+/*!Fix Module*/
+@import "fix.stylus";

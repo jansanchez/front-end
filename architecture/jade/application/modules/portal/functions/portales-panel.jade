@@ -1,14 +1,24 @@
 //-Private
-mixin createPanel(clsBg, text)
-	.col4
-		.panel-port
-			span(class='#{clsBg}')
-			.desc!= text
+mixin createPanel(clsBg, text, cend)
+	if cend==''
+		.col4
+			.panel-port
+				span(class='#{clsBg}')
+				.desc!= text
+	else
+		.col4(class='#{cend}')
+			.panel-port
+				span(class='#{clsBg}')
+				.desc!= text
 
 //-Public
 mixin createGrids(data)
 	each item in data
 		.row
-			each ele in item
+			each ele,i in item
 				each val, key in ele
-					mixin createPanel(key, val)
+					if (item.length-1)==i
+						- var cend = 'cend'
+					else
+						- var cend = ''
+					mixin createPanel(key, val, cend)

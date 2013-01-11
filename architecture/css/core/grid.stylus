@@ -23,8 +23,7 @@
 					margin 0
 
 // Estilo para la columna final de una fila
-.cend  
-	margin-right 0
+
 // Estilo para definir una fila
 .row
 	margin-bottom 25px
