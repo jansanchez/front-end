@@ -56,3 +56,13 @@
 				setPosition(oxigeno)
 			&.aja
 				setPosition(aja)
+			&.publimetro
+				setPosition(publimetro)
+			&.capital
+				setPosition(capital)
+			&.felicidad
+				setPosition(felicidad)
+			&.bravaza
+				setPosition(bravaza)
+			&.lazona
+				setPosition(lazona)

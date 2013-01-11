@@ -40,5 +40,9 @@ ojo = (x -500px ) (y -95px)
 elbocon = (x 0px ) (y -190px)
 oxigeno = (x -125px ) (y -190px)
 aja = (x -250px ) (y -190px)
+publimetro = (x -375px ) (y -190px)
+capital = (x -500px ) (y -190px)
 
-
+felicidad = (x 0 ) (y -285px)
+bravaza = (x -125px ) (y -285px)
+lazona = (x -250px ) (y -285px)
