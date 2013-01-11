@@ -13,17 +13,19 @@
 bookclaims = (x -362px) (y -24px)
 centralhelp = (x -144px) (y -194px)
 
-
 registrate = (x 0px) (y 0px)
 disena = (x -50px) (y 0px)
 planifica = (x -100px) (y 0px)
 monitorea = (x -150px) (y 0px)
 
-pefectivo = (x -143px) (y -158px)
-visa = (x -285px) (y -161px)
-verifvisa = (x -215px) (y -158px)
-mastercard = (x 0px) (y -158px)
-smastercard = (x -72px) (y -158px)
+pefectivo = (x -143px) (y -150px)
+visa = (x -285px) (y -150px)
+verifvisa = (x -214px) (y -150px)
+mastercard = (x 0px) (y -150px)
+smastercard = (x -72px) (y -150px)
+
+arrowleft = (x -200px) (y 0px)
+arrowright = (x -214px) (y 0px)
 
 /**
 * Lista de sprites para el archivo icon-set2.png
@@ -70,4 +72,33 @@ a = ( (m (k 0) (l 1) )  (n  (e 2) (f 2) ) )
 */
 
 videopasos     = (x 0 ) (y 0px)
-videoprincipal = (x -125px ) (y 0px)
+videopresentacion = (x 0 ) (y -164px)
+
+
+/**
+* Lista de sprites para el archivo icon-set5.png
+* @submodule icon-set5
+* @main icon
+*/
+
+elcomerciope2    = (x 0 ) (y 0px)
+rppnoticias2     = (x -70px ) (y 0px)
+perucom2         = (x -140px ) (y 0px)
+peru212          = (x -210px ) (y 0px)
+trome2           = (x -280px ) (y 0px)
+
+depor2           = (x 0 ) (y -50px)
+correo2          = (x -70px ) (y -50px)
+studio922        = (x -140px ) (y -50px)
+gestion2         = (x -210px ) (y -50px)
+ojo2             = (x -280px ) (y -50px)
+
+elbocon2         = (x 0px ) (y -100px)
+oxigeno2         = (x -70px ) (y -100px)
+aja2             = (x -140px ) (y -100px)
+publimetro2      = (x -210px ) (y -100px)
+capital2         = (x -280px ) (y -100px)
+
+felicidad2       = (x 0 ) (y -150px)
+bravaza2         = (x -70px ) (y -150px)
+lazona2          = (x -140px ) (y -150px)
