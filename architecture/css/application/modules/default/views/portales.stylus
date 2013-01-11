@@ -4,4 +4,8 @@
 	height 190px
 	border 1px solid #DDD
 	span
-		
+		width 125px
+		height 95px
+		margin 2px auto
+	.desc
+		padding 5px
