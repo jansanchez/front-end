@@ -69,6 +69,12 @@ footer .visit-also-list .last{border:medium none}
 .footer-wrap .help-description{float:left;font-family:'century',Arial,sans-serif;margin-left:22px;width:210px;text-align:center}
 .footer-wrap p{text-align:left;margin-bottom:22px}
 .footer-wrap .help-question{float:right;width:135px}
+.means-of-payment{border-top:1px solid #d9dfea;padding:20px 0;}
+.means-of-payment span,.means-of-payment a{color:#333;display:inline-block;font:700 18px/21px Arial,sans-serif;vertical-align:top;*display:inline;*zoom:1}
+.means-of-payment span{padding-left:180px}
+.means-of-payment a{margin-left:20px;background:url("../../../../img/icon-set.png?version") no-repeat scroll 0 0 transparent}
+.means-of-payment .pefectivo{background-position:-143px -158px;height:28px;width:71px}
+.means-of-payment .visa{background-position:-285px -161px;height:22px;width:71px}
 .copyright{background:#fff;color:#333;height:30px;padding:10px 0;margin-bottom:6px;}
 .copyright .logo-small{height:30px;width:76px;background:url("../../../../img/logo.png?version") no-repeat scroll 0 0 transparent;background-size:76px 30px;display:block;float:left}
 .copyright a{color:#333;display:block;}

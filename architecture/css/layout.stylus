@@ -147,6 +147,29 @@ footer
 	.help-question
 		float right
 		width 135px
+.means-of-payment
+	border-top 1px solid #D9DFEA
+	padding 20px 0
+	span,a
+		color textColor
+		display inline-block
+		font 700 18px/21px arial
+		vertical-align top
+		*display inline
+		*zoom 1
+	span
+		padding-left 180px
+	a
+		margin-left 20px
+		setIconSet()
+	.pefectivo
+		background-position -143px -158px
+		height 28px
+		width 71px
+	.visa
+		background-position -285px -161px
+		height 22px
+		width 71px
 .copyright
 	background white
 	color textColor
