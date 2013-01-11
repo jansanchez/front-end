@@ -4,7 +4,6 @@
 * @main default
 */
 
-
 .red-home
 	list-style none outside none
 	margin 0 0 10px 0
