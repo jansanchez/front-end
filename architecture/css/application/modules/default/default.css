@@ -1,10 +1,11 @@
 /*Index Module*/
 .video-presentacion{height:372px;width:491px;display:block;background:url("../../../../img/icon-set4.png?version") no-repeat scroll 0 0 transparent;background-position:0  -164px}
-.arrow-left{clear:both;display:block;height:24px;width:14px;background:url("../../../../img/icon-set.png?version") no-repeat scroll 0 0 transparent;background-position:-200px  0}
-.slide{clear:both;display:block;height:55px;list-style:none outside none;margin:0;padding:15px 0 0;}
-.slide li{list-style:none outside none;float:left;width:70px;margin:0 0 0 20px;border-color:#ddd;border-style:solid;border-width:1px;}
-.slide li a{display:block;height:53px;width:70px;background:url("../../../../img/icon-set5.png?version") no-repeat scroll 0 0 transparent}
-.arrow-right{clear:both;display:block;height:24px;width:14px;background:url("../../../../img/icon-set.png?version") no-repeat scroll 0 0 transparent;background-position:-214px  0}
+.arrow-left{display:block;height:24px;position:absolute;top:30px;width:14px;background:url("../../../../img/icon-set.png?version") no-repeat scroll 0 0 transparent;background-position:-200px  0}
+.slideshow{clear:both;padding:15px 0 0;position:relative;}
+.slideshow .slide{display:block;height:55px;left:15px;list-style:none outside none;margin:0;position:absolute;width:427px;}
+.slideshow .slide li{list-style:none outside none;float:left;width:70px;margin:0 0 0 13px;border-color:#ddd;border-style:solid;border-width:1px;}
+.slideshow .slide li a{display:block;height:53px;width:70px;background:url("../../../../img/icon-set5.png?version") no-repeat scroll 0 0 transparent}
+.arrow-right{display:block;height:24px;position:absolute;right:0;top:30px;width:14px;background:url("../../../../img/icon-set.png?version") no-repeat scroll 0 0 transparent;background-position:-214px  0}
 .pasos-de-uso{padding:15px 0 0 0;}
 .pasos-de-uso .video-pasos{width:286px;height:166px;display:block;background:url("../../../../img/icon-set4.png?version") no-repeat scroll 0 0 transparent;background-position:0  0;float:left}
 .pasos-de-uso ul{float:right;}
