@@ -130,13 +130,15 @@ footer
 		float left
 		height 82px
 		width 81px
+		border 2px solid #303030
 	.help-content
 		width 332px
 		float left
 	.help-description
 		float left
-		margin-left 45px
-		width 206px
+		margin-left 22px
+		width 220px
+		font-family
 	.help-question
 		float right
 		width 135px

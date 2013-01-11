@@ -24,4 +24,25 @@
 * @submodule icon-set3
 * @main icon
 */
-elComercioPe = (x 0 ) (y 0px)
+
+elcomerciope = (x 0 ) (y 0px)
+rppnoticias = (x -125px ) (y 0px)
+perucom = (x -250px ) (y 0px)
+peru21 = (x -375px ) (y 0px)
+trome = (x -500px ) (y 0px)
+
+depor = (x 0 ) (y -95px)
+correo = (x -125px ) (y -95px)
+studio92 = (x -250px ) (y -95px)
+gestion = (x -375px ) (y -95px)
+ojo = (x -500px ) (y -95px)
+
+elbocon = (x 0px ) (y -190px)
+oxigeno = (x -125px ) (y -190px)
+aja = (x -250px ) (y -190px)
+publimetro = (x -375px ) (y -190px)
+capital = (x -500px ) (y -190px)
+
+felicidad = (x 0 ) (y -285px)
+bravaza = (x -125px ) (y -285px)
+lazona = (x -250px ) (y -285px)

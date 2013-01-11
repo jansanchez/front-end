@@ -23,5 +23,46 @@
 			width @width 
 			height @height
 			display block
-			&.elComercio
-				getIconSet3(elComercioPe)
+			font-size 0
+			line-height 0
+			text-align center
+			*text-indent: -9999px
+			setIconSet3()
+			&.elcomerciope
+				setPosition(elcomerciope)
+			&.rppnoticias
+				setPosition(rppnoticias)
+			&.perucom
+				setPosition(perucom)
+			&.peru21
+				setPosition(peru21)
+			&.trome
+				setPosition(trome)
+			&.depor
+				setPosition(depor)
+			&.correo
+				setPosition(correo)
+			&.studio92
+				setPosition(studio92)
+			&.gestion
+				setPosition(gestion)
+			&.ojo
+				setPosition(ojo)
+			&.elbocon
+				setPosition(elbocon)
+			&.correo
+				setPosition(correo)
+			&.oxigeno
+				setPosition(oxigeno)
+			&.aja
+				setPosition(aja)
+			&.publimetro
+				setPosition(publimetro)
+			&.capital
+				setPosition(capital)
+			&.felicidad
+				setPosition(felicidad)
+			&.bravaza
+				setPosition(bravaza)
+			&.lazona
+				setPosition(lazona)
