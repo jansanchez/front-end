@@ -5,9 +5,17 @@
 */
 .red-home
 	list-style none outside none
+	margin 0 0 10px 0
+	li:first-child
+		margin 10px 15px 0 0
 	li
+		border-color borderColor2
+		border-style solid
+		border-width 1px
 		float left
 		height 93px
 		list-style none outside none
-		padding 0 7px
+		margin 10px 15px 0 0
 		width  123px
+		&:elComercio
+			getIconSet3(elComercioPe)
