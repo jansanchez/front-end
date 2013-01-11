@@ -49,6 +49,7 @@ felicidad         = (x 0 ) (y -285px)
 bravaza          = (x -125px ) (y -285px)
 lazona            = (x -250px ) (y -285px)
 
+a = ( (m (k 0) (l 1) )  (n  (e 2) (f 2) ) )
 
 /**
 * Lista de sprites para el archivo icon-set4.png

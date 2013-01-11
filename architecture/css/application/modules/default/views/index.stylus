@@ -10,7 +10,7 @@
 		width 286px
 		height 166px
 		display block
-		setIconSet4()
+		setIconSet("4")
 		setPosition(videopasos)
 		float: left;
 	ul
@@ -48,7 +48,7 @@
 			line-height 0
 			text-align center
 			*text-indent: -9999px
-			setIconSet3()
+			setIconSet("3")
 			&.elcomerciope
 				setPosition(elcomerciope)
 			&.rppnoticias
