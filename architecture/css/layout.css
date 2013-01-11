@@ -63,7 +63,7 @@ footer .visit-also-list{float:left;list-style:none outside none;margin:0;padding
 footer .visit-also-list li{border-right:1px solid #666;float:left;line-height:12px;margin:2px 0 0 0;padding:0 5px;}
 footer .visit-also-list li a{font:400 12px/14px Arial,sans-serif;text-decoration:none}
 footer .visit-also-list .last{border:medium none}
-.copyright{background:#fff;height:50px;color:#333;}
+.copyright{background:#fff;color:#333;height:30px;padding:10px 0;}
 .copyright .logo-small{height:30px;width:76px;background:url("../../../../img/logo.png?version") no-repeat scroll 0 0 transparent;background-size:76px 30px;display:block;float:left}
 .copyright a{color:#333;display:block;text-decoration:none;}
 .copyright a:hover{text-decoration:underline}

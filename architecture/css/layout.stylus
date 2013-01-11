@@ -107,8 +107,9 @@ footer
 			border medium none
 .copyright
 	background white
-	height 50px
 	color textColor
+	height 30px
+	padding 10px 0
 	.logo-small
 		height 30px
 		width 76px
