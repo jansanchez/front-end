@@ -7,13 +7,13 @@ html(lang='es')
 		include application/modules/themes/partials/header.jade
 
 		#wrapper
-			div.hola
-				p Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam cursus. Morbi ut mi. Nullam enim leo, 
-				| egestas id, condimentum at, laoreet mattis, massa. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-				| Nam cursus. Morbi ut mi. Nullam enim leo, egestas id, condimentum at, laoreet mattis, massa.
-				| egestas id, condimentum at, laoreet mattis, massa. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-				| Nam cursus. Morbi ut mi. Nullam enim leo, egestas id, condimentum at, laoreet mattis, massa.
-				| egestas id, condimentum at, laoreet mattis, massa. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-				| Nam cursus. Morbi ut mi. Nullam enim leo, egestas id, condimentum at, laoreet mattis, massa.
+			.row
+				.grid6
+					h3 Somos la única red publicitaria a nivel nacional para anunciar los productos y servicios de tu empresa
+					ul
+						li Anuncia en los sitios web más importantes del país.
+						li Elige los días, los portales web y las secciones donde quieres que se vea tu aviso.
+				.grid6
+					img(src="#{img_url}video.jpg",width="480",height="360")
 
 		include application/modules/themes/partials/footer.jade
