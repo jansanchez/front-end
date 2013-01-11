@@ -24,12 +24,24 @@ for i in 1...($NUM_COLS +1)  //-Estilo para las columnas
 .cend  
 	margin-right 0
 // Estilo para definir una fila
-.row    
-	width 100%
-	overflow hidden
-	margin 0 0 1em 0
-	display block
-	overflow hidden
+.row
+	margin-bottom 25px
+	*zoom 1
+	&:before,&:after
+		display table
+		content ""
+		line-height 0
+	&:after
+		clear both
+//Grillas Brayan
+
+[class^="grid"]
+	float left
+	&:first-child
+		margin 0
+.grid6
+	width 49%
+	margin-left 2%
 
 // ------------------------------
 
@@ -38,12 +50,25 @@ for i in 1...($NUM_COLS +1)  //-Estilo para las columnas
 	margin 0 auto
 	padding $PADDING_WRAPPER
 	width $WIDTH_PAGE
+	*zoom 1
+	&:before,&:after
+		display table
+		content ""
+		line-height 0
+	&:after
+		clear both
 
 .box-center
-	clear both
 	margin 0 auto
 	position relative
 	width $WIDTH_PAGE
+	*zoom 1
+	&:before,&:after
+		display table
+		content ""
+		line-height 0
+	&:after
+		clear both
 
 .content-inner
 	padding-bottom 30px
