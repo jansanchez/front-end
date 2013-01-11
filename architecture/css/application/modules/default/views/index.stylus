@@ -51,6 +51,14 @@
 			padding: 15px 0 0;
 			width: 50px;
 			setIconSet()
+		#step-registrate
+			setPosition(registrate)
+		#step-disena
+			setPosition(disena)
+		#step-planifica
+			setPosition(planifica)
+		#step-monitorea
+			setPosition(monitorea)
 
 .red-home
 	list-style none outside none
