@@ -24,4 +24,12 @@
 * @submodule icon-set3
 * @main icon
 */
-elComercioPe = (x 0 ) (y 0px)
+
+elcomerciope = (x 0 ) (y 0px)
+rppnoticias = (x -125px ) (y 0px)
+perucom = (x -250px ) (y 0px)
+peru21 = (x -375px ) (y 0px)
+trome = (x -500px ) (y 0px)
+
+depor = (x 0 ) (y -93px)
+correo = (x -125px ) (y -93px)

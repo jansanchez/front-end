@@ -3,11 +3,12 @@ mixin createPanel(clsBg, text)
 	.col3
 		.panel-port
 			span(class='#{clsBg}')
-			.desc != text
+			.desc!= text
 
 //-Public
 mixin createGrids(data)
-	.row
-		each item in data
-			each val, key in item
-				mixin createPanel(key, val)
+	each item in data
+		.row
+			each ele in item
+				each val, key in ele
+					mixin createPanel(key, val)

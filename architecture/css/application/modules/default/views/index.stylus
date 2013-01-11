@@ -23,5 +23,21 @@
 			width @width 
 			height @height
 			display block
-			&.elComercio
-				getIconSet3(elComercioPe)
+			font-size 0
+			line-height 0
+			text-align center
+			*text-indent: -9999px
+			&.elcomerciope
+				getIconSet3(elcomerciope)
+			&.rppnoticias
+				getIconSet3(rppnoticias)
+			&.perucom
+				getIconSet3(perucom)
+			&.peru21
+				getIconSet3(peru21)
+			&.trome
+				getIconSet3(trome)
+			&.depor
+				getIconSet3(depor)
+			&.correo
+				getIconSet3(correo)
