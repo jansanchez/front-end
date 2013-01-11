@@ -16,6 +16,10 @@ getIconSet2(arreglo)
 getIconSet3(arreglo)
 	background url($IMG_PATH+$ICON_SET3"?version") no-repeat scroll get(arreglo, x) get(arreglo, y) transparent
 
+setBgPosition(arreglo)
+	background-position get(arreglo, x) get(arreglo, y)
+
+
 border-radius()
 	-webkit-border-radius arguments
 	-moz-border-radius arguments
