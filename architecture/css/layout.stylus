@@ -82,7 +82,8 @@ footer
 	border-width 1px 0 0 0
 	height 431px
 	padding 10px 0 0 0
-
+	li
+		margin 0
 	.visit-also
 		color textColor2
 		float left
