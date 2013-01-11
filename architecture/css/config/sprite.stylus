@@ -22,8 +22,8 @@ monitorea = (x -150px) (y 0px)
 pefectivo = (x -143px) (y -158px)
 visa = (x -285px) (y -161px)
 verifvisa = (x -215px) (y -158px)
-mastercard = (x -285px) (y -158px)
-smastercard = (x -285px) (y -158px)
+mastercard = (x 0px) (y -158px)
+smastercard = (x -72px) (y -158px)
 
 /**
 * Lista de sprites para el archivo icon-set2.png
