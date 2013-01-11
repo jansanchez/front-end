@@ -51,7 +51,13 @@
 			.logo-small
 				height: 65px;
 				margin: 15px 0 0;
+	.conoce
+		padding 5px
+		background bgTipColor
+		setIconSet()
+		setPosition(conoce)
 
 .soloTexto
 	width 98% !important
 	padding: 0 0 0 5px;
+
