@@ -62,7 +62,7 @@
 		width 306
 		height 128
 		display block
-		margin 20px 0 0 0
+		margin 25px 0 0 0
 .soloTexto
 	width 98% !important
 	padding: 0 0 0 5px;
