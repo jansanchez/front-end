@@ -54,6 +54,7 @@ option
 	padding 2px 5px
 	vertical-align middle
 h1,h2,h3
+	font-family: 'century', arial;
 	margin 0 0 15px
 h2
 	color textColor
