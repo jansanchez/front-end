@@ -198,12 +198,21 @@
 
 .panel-home
 	span
-		width 177px
+		width 180px
 		height 110px
 		display block
 		overflow hidden
-		border 1px solid #DDD
+		border 0px solid #DDD
 		margin 1px auto
+		setIconSet("2")
+		&.fig1
+			setPosition(fig1)
+		&.fig2
+			setPosition(fig2)
+		&.fig3
+			setPosition(fig3)
+		&.fig4
+			setPosition(fig4)
 	.desc
 		padding 2px
 		text-align center

@@ -33,8 +33,10 @@ arrowright = (x -214px) (y 0px)
 * @main icon
 */
 
-
-
+fig1 = (x -0px) (y 0px) 
+fig2 = (x -180px) (y 0px) 
+fig3 = (x -0px) (y -110px) 
+fig4 = (x -180px) (y -110px) 
 /**
 * Lista de sprites para el archivo icon-set3.png
 * @submodule icon-set3
