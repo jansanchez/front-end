@@ -49,7 +49,7 @@ h4{color:#666;font-size:14px;font-weight:400;margin:15px 0 10px 0}
 .sidebar .anuncio .demo-anuncio .title{color:#1b2fc4;font-size:15px;font-weight:700;line-height:14px;float:left}
 .sidebar .anuncio .demo-anuncio p{color:#000;float:left;font-size:11px;margin:0;padding:0 0 0 5px;width:210px;display:block}
 .sidebar .anuncio .demo-anuncio .logo-small{height:65px;margin:15px 0 0}
-.sidebar .conoce{height:37px;margin:25px 0 0;padding:10px 5px 5px 50px;background:url("../../../../img/icon-set.png?version") no-repeat scroll 0 0 transparent;background-position:-360px  -150px ;background-color:#e6e8ec}
+.sidebar .conoce{height:37px;margin:25px 0 0;padding:10px 5px 5px 50px;background:url("../../../../img/icon-set.png?version") no-repeat scroll 0 0 transparent;background-position:-360px  -150px;background-color:#e6e8ec}
 .sidebar .banner{width:306;height:128;display:block;margin:25px 0 0 0}
 .soloTexto{width:98% !important;padding:0 0 0 5px}
 .lt-ie9 .btn{filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#FF0000', endColorstr='#E60000',GradientType=0);*zoom:1;}
@@ -87,11 +87,11 @@ footer .visit-also-list .last{border:medium none}
 .means-of-payment span,.means-of-payment a{color:#333;display:inline-block;font:700 18px/21px Arial,sans-serif;vertical-align:top;*display:inline;*zoom:1}
 .means-of-payment span{padding:10px 0 0 130px}
 .means-of-payment a{margin-left:20px;background:url("../../../../img/icon-set.png?version") no-repeat scroll 0 0 transparent}
-.means-of-payment .pefectivo{background-position:-143px  -150px ;height:44px;width:71px}
-.means-of-payment .visa{background-position:-285px  -150px ;height:44px;width:71px}
-.means-of-payment .verif-visa{background-position:-214px  -150px ;height:44px;width:71px}
-.means-of-payment .mastercard{background-position:0  -150px ;height:44px;width:71px}
-.means-of-payment .smastercard{background-position:-72px  -150px ;height:44px;width:71px}
+.means-of-payment .pefectivo{background-position:-143px  -150px;height:44px;width:71px}
+.means-of-payment .visa{background-position:-285px  -150px;height:44px;width:71px}
+.means-of-payment .verif-visa{background-position:-214px  -150px;height:44px;width:71px}
+.means-of-payment .mastercard{background-position:0  -150px;height:44px;width:71px}
+.means-of-payment .smastercard{background-position:-72px  -150px;height:44px;width:71px}
 .copyright{background:#fff;color:#333;height:30px;padding:10px 0;margin-bottom:6px;}
 .copyright a{color:#333;display:block;}
 .copyright a:hover{text-decoration:underline}
@@ -101,4 +101,3 @@ footer .visit-also-list .last{border:medium none}
 .copyright .last{float:right;border:none}
 .copyright .book-claims{background:url("../../../../img/icon-set.png?version") no-repeat scroll -362px  -24px  transparent;font:10px/15px Arial,sans-serif;height:15px;padding-left:42px;position:absolute;right:164px;top:9px}
 .logo-small{height:30px;width:76px;background:url("../../../../img/logo.png?version") no-repeat scroll 0 0 transparent;background-size:76px 30px;display:block;float:left}
-

@@ -8,3 +8,4 @@
 .promociones
 	h3
 		color textColor4
+		margin 20px 0 0
