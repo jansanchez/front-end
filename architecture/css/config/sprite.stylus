@@ -1,7 +1,27 @@
 /**
 * Icon Module
-* @class Icon
+* @class icon
 * @module css-architecture
 */
 
-btnRegister = (x 0 ) (y -32px)
+/**
+* Lista de sprites para el archivo icon-set.png
+* @submodule icon-set
+* @main icon
+*/
+
+
+
+/**
+* Lista de sprites para el archivo icon-set2.png
+* @submodule icon-set2
+* @main icon
+*/
+
+
+/**
+* Lista de sprites para el archivo icon-set3.png
+* @submodule icon-set3
+* @main icon
+*/
+elComercioPe = (x 0 ) (y 0px)
