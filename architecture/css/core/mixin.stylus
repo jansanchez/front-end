@@ -28,6 +28,9 @@ setIconSet2()
 setIconSet3()
 	background url($IMG_PATH+$ICON_SET3"?version") no-repeat scroll 0 0 transparent
 
+setIconSet4()
+	background url($IMG_PATH+$ICON_SET4"?version") no-repeat scroll 0 0 transparent
+
 setPosition(arreglo)
 	background-position get(arreglo, x) get(arreglo, y)
 
