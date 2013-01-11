@@ -25,7 +25,7 @@ textColor           = #333333  //negro
 textColor2        = #666666   //maso
 textColor3        = #999999   //plomo
 textColor4        = #FF0000   //rojo
-textColor5        = #3A2DBB   //morado
+textColor5        = #1B2FC4   //morado
 textColor6           = #000000  // black
 
 btnOutColor    = #E60000
