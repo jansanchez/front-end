@@ -9,11 +9,7 @@
 
 /*!Index Module*/
 @import "views/index.stylus";
-<<<<<<< HEAD
 /*!Portales Module*/
 @import "views/portales.stylus";
 /*!Como Anunciar Module*/
 @import "views/como-anunciar.stylus";
-=======
-@import "views/portales.stylus";
->>>>>>> 42d9092a0c3cf58ad4ca59ed601067739a9a4c9c

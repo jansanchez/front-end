@@ -51,10 +51,10 @@
 .red-home li a.lazona{background-position:-250px  -285px}
 .red-home li:first-child{margin:10px 12px 0 0}
 .panel-home span{width:180px;height:110px;display:block;overflow:hidden;border:0 solid #ddd;margin:1px auto;background:url("../../../../img/icon-set2.png?version") no-repeat scroll 0 0 transparent;}
-.panel-home span.fig1{background-position:0  0 }
-.panel-home span.fig2{background-position:-180px  0 }
-.panel-home span.fig3{background-position:0  -110px }
-.panel-home span.fig4{background-position:-180px  -110px }
+.panel-home span.fig1{background-position:0  0}
+.panel-home span.fig2{background-position:-180px  0}
+.panel-home span.fig3{background-position:0  -110px}
+.panel-home span.fig4{background-position:-180px  -110px}
 .panel-home .desc{padding:2px;text-align:center}
 /*Portales Module*/
 .panel-port{overflow:hidden;height:190px;border:1px solid #ddd;}
