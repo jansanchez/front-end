@@ -52,12 +52,12 @@
 				height: 65px;
 				margin: 15px 0 0;
 	.conoce
-		padding 5px
-		background bgTipColor
+		height: 50px;
+		margin: 25px 0 0;
+		padding: 5px;
 		setIconSet()
 		setPosition(conoce)
-		height 50px
-
+		background-color bgTipColor
 .soloTexto
 	width 98% !important
 	padding: 0 0 0 5px;
