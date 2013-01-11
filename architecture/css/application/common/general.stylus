@@ -56,7 +56,7 @@ option
 h1,h2,h3
 	margin 0 0 15px
 h2
-	color textColor3
+	color textColor
 	font-size 24px
 	line-height 25px
 h3
