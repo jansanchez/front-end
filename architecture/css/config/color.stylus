@@ -23,6 +23,7 @@ borderColor4  = #EEEEEE
 textColor           = #333333  //negro
 textColor2        = #666666   //maso
 textColor3        = #999999   //plomo
+textColor4        = #FF0000   //rojo
 
 btnOutColor    = #E60000
 btnHoverColor= #EB0808

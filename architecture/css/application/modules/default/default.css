@@ -11,6 +11,10 @@
 .slideshow .slide li a.peru212{background-position:-210px  0}
 .slideshow .slide li a.trome2{background-position:-280px  0}
 .arrow-right{display:block;height:24px;position:absolute;right:0;top:30px;width:14px;background:url("../../../../img/icon-set.png?version") no-repeat scroll 0 0 transparent;background-position:-214px  0}
+.registrate{font-size:16px;color:#666;}
+.registrate .free{color:#333;font-size:20px}
+.registrate .offer-price{color:#f00;font-size:26px}
+.campana{margin:20px 0 0 110px}
 .pasos-de-uso{padding:15px 0 0 0;}
 .pasos-de-uso .video-pasos{width:286px;height:166px;display:block;background:url("../../../../img/icon-set4.png?version") no-repeat scroll 0 0 transparent;background-position:0  0;float:left}
 .pasos-de-uso ul{float:right;}

@@ -66,6 +66,19 @@
 	setIconSet()
 	setPosition(arrowright)
 
+.registrate
+	font-size h4
+	color textColor2
+	.free
+		color textColor
+		font-size h3
+	.offer-price
+		color textColor4
+		font-size h7
+
+.campana
+	margin: 20px 0 0 110px;
+
 .pasos-de-uso
 	padding 15px 0 0 0
 	.video-pasos
