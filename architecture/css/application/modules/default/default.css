@@ -1,8 +1,10 @@
 /*Index Module*/
 .video-presentacion{height:372px;width:491px;display:block;background:url("../../../../img/icon-set4.png?version") no-repeat scroll 0 0 transparent;background-position:0  -164px}
-.slide{list-style:none outside none;}
-.slide li{list-style:none outside none;float:left;width:70px;margin:0 0 0 25px;border-color:#ddd;border-style:solid;border-width:1px;}
+.arrow-left{clear:both;display:block;height:24px;width:14px;background:url("../../../../img/icon-set.png?version") no-repeat scroll 0 0 transparent;background-position:-200px  0}
+.slide{clear:both;display:block;height:55px;list-style:none outside none;margin:0;padding:15px 0 0;}
+.slide li{list-style:none outside none;float:left;width:70px;margin:0 0 0 20px;border-color:#ddd;border-style:solid;border-width:1px;}
 .slide li a{display:block;height:53px;width:70px;background:url("../../../../img/icon-set5.png?version") no-repeat scroll 0 0 transparent}
+.arrow-right{clear:both;display:block;height:24px;width:14px;background:url("../../../../img/icon-set.png?version") no-repeat scroll 0 0 transparent;background-position:-214px  0}
 .pasos-de-uso{padding:15px 0 0 0;}
 .pasos-de-uso .video-pasos{width:286px;height:166px;display:block;background:url("../../../../img/icon-set4.png?version") no-repeat scroll 0 0 transparent;background-position:0  0;float:left}
 .pasos-de-uso ul{float:right;}
