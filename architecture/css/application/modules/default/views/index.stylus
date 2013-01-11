@@ -27,6 +27,22 @@
 		li:first-child
 			margin 3px 8px 0 0
 			border-width 0 0 0 1px
+		.step
+			display block
+			font-size h0
+			line-height @font-size
+			float left
+			margin 0 0 0 15px
+			font-weight 700
+		.step-text
+			display block
+			float left
+		.step-icon
+			clear both
+			display block
+			height 50px
+			width 50px
+			setIconSet()
 
 .red-home
 	list-style none outside none
