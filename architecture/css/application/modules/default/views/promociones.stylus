@@ -52,12 +52,17 @@
 				height: 65px;
 				margin: 15px 0 0;
 	.conoce
-		height: 50px;
+		height: 42px;
 		margin: 25px 0 0;
 		padding: 5px;
 		setIconSet()
 		setPosition(conoce)
 		background-color bgTipColor
+	.banner
+		width 306
+		height 128
+		display block
+		margin 20px 0 0 0
 .soloTexto
 	width 98% !important
 	padding: 0 0 0 5px;
