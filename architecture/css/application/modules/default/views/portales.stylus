@@ -1,3 +1,9 @@
+/**
+* modulo portales
+* @submodule portales
+* @main default
+*/
+
 .panel-port
 	overflow hidden
 	height 190px

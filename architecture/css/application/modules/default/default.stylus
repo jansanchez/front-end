@@ -9,4 +9,7 @@
 
 /*!Index Module*/
 @import "views/index.stylus";
+/*!Portales Module*/
 @import "views/portales.stylus";
+/*!Como Anunciar Module*/
+@import "views/como-anunciar.stylus";
