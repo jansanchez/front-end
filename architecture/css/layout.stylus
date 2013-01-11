@@ -138,7 +138,7 @@ footer
 		float left
 		margin-left 22px
 		width 220px
-		color #666
+		font-family
 	.help-question
 		float right
 		width 135px
