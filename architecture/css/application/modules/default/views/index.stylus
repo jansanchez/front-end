@@ -44,7 +44,16 @@
 				height 53px
 				width 70px
 				setIconSet("5")
-				//setPosition(elcomerciope)			
+				&.elcomerciope2
+					setPosition(elcomerciope2)
+				&.rppnoticias2
+					setPosition(rppnoticias2)
+				&.perucom2
+					setPosition(perucom2)
+				&.peru212
+					setPosition(peru212)
+				&.trome2
+					setPosition(trome2)
 
 .arrow-right
 	display: block;
