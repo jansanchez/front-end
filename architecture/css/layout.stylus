@@ -162,12 +162,24 @@ footer
 		margin-left 20px
 		setIconSet()
 	.pefectivo
-		background-position -143px -158px
+		setPosition(pefectivo)
 		height 28px
 		width 71px
 	.visa
-		background-position -285px -161px
+		setPosition(visa)
 		height 22px
+		width 71px
+	.verif-visa
+		setPosition(verifvisa)
+		height 28px
+		width 71px
+	.mastercard
+		setPosition(mastercard)
+		height 28px
+		width 71px
+	.smastercard
+		setPosition(smastercard)
+		height 28px
 		width 71px
 .copyright
 	background white
