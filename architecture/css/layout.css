@@ -66,7 +66,11 @@ footer .visit-also-list li a{font:400 12px/14px Arial,sans-serif;text-decoration
 footer .visit-also-list .last{border:medium none}
 .footer-wrap ul{font:12px/13px 'century',Arial,sans-serif;margin-bottom:0}
 .footer-wrap li{margin-top:8px}
-.footer-wrap .box-help{background:#fff;border:1px solid #ccc;-webkit-border-radius:5px;-moz-border-radius:5px;-ms-border-radius:5px;-o-border-radius:5px;border-radius:5px;padding:8px 18px}
+.footer-wrap .box-help{background:#fff;border:1px solid #ccc;-webkit-border-radius:5px;-moz-border-radius:5px;-ms-border-radius:5px;-o-border-radius:5px;border-radius:5px;padding:12px 18px;height:125px}
+.footer-wrap .img-help{float:left;height:82px;width:81px}
+.footer-wrap .help-content{width:332px;float:left}
+.footer-wrap .help-description{float:left;margin-left:45px;width:206px}
+.footer-wrap .help-question{float:right;width:135px}
 .copyright{background:#fff;color:#333;height:30px;padding:10px 0;margin-bottom:6px;}
 .copyright .logo-small{height:30px;width:76px;background:url("../../../../img/logo.png?version") no-repeat scroll 0 0 transparent;background-size:76px 30px;display:block;float:left}
 .copyright a{color:#333;display:block;text-decoration:none;}
@@ -76,5 +80,4 @@ footer .visit-also-list .last{border:medium none}
 .copyright li:first-child{border:none}
 .copyright .last{float:right;border:none}
 .copyright .book-claims{background:url("../img/icon-set.png?version") no-repeat -362px -24px;font:10px/15px Arial,sans-serif;height:15px;padding-left:42px;position:absolute;right:164px;top:9px}
-.btnRegister{background:url("imgPathiconSet?version") no-repeat scroll 0  -32px  transparent}
 

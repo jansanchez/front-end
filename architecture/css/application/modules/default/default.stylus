@@ -4,6 +4,10 @@
 * @module css-architecture
 */
 
+
+@import "../../../config/config.stylus"
+@import "../../../core/mixin.stylus"
+
 /*!Index Module*/
 @import "views/index.stylus";
 @import "views/portales.stylus";
