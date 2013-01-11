@@ -13,3 +13,5 @@
 @import "views/portales.stylus";
 /*!Como Anunciar Module*/
 @import "views/como-anunciar.stylus";
+/*!Promociones Module*/
+@import "views/promociones.stylus";

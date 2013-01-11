@@ -3,10 +3,3 @@
 * @submodule como-anunciar
 * @main default
 */
-
-.sidebar
-	h3
-		border-color borderColor2
-		border-style solid
-		border-width 0px 0px 1px 0px
-		padding 0 0 14px 0
