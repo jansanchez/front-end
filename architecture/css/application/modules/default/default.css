@@ -84,4 +84,8 @@
 /*Como Anunciar Module*/
 /*Promociones Module*/
 .sidebar h3{border-color:#ddd;border-style:solid;border-width:0 0 1px 0;padding:0 0 14px 0}
-.sidebar .anuncio{border-color:#ddd;border-style:solid;border-width:1px;height:105px;padding:5px}
+.sidebar .anuncio{word-wrap:break-word;}
+.sidebar .anuncio .demo-anuncio{font-family:Arial,sans-serif;border-color:#ddd;border-style:solid;border-width:1px;height:105px;margin:0 0 10px;padding:5px;}
+.sidebar .anuncio .demo-anuncio a{text-decoration:none;color:#3158cc;}
+.sidebar .anuncio .demo-anuncio a:hover{color:#0c2a85}
+.sidebar .anuncio .demo-anuncio .title{font-weight:400;color:#0c2a85}

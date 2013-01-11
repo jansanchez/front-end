@@ -13,8 +13,20 @@
 		border-width 0px 0px 1px 0px
 		padding 0 0 14px 0
 	.anuncio
-		border-color borderColor2
-		border-style solid
-		border-width 1px
-		height 105px		
-		padding 5px
+		word-wrap break-word
+		.demo-anuncio
+			font-family arial
+			border-color borderColor2
+			border-style solid
+			border-width 1px
+			height 105px		
+			margin 0 0 10px;
+			padding 5px
+			a
+				text-decoration none
+				color hoverColor
+				&:hover
+					color linkColor
+			.title
+				font-weight 400
+				color linkColor
