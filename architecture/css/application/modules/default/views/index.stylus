@@ -4,11 +4,24 @@
 * @main default
 */
 
+.pasos-de-uso
+	ul
+		li
+			list-style: none outside none;
+			width 160px
+			height 155px
+			border-color borderColor2
+			border-style solid
+			border-width 0px 1px 0px 0px
+			float left
+			margin 10px 15px 0 0
+		li:first-child
+			margin 10px 15px 0 0
+			border-width 0px 0px 0px 1px
+
 .red-home
 	list-style none outside none
 	margin 0 0 10px 0
-	li:first-child
-		margin 10px 15px 0 0
 	li
 		border-color borderColor2
 		border-style solid
@@ -65,3 +78,5 @@
 				setPosition(bravaza)
 			&.lazona
 				setPosition(lazona)
+	li:first-child
+		margin 10px 15px 0 0
