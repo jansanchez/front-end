@@ -124,12 +124,21 @@ footer
 		background white
 		border 1px solid borderColor
 		border-radius 5px
-		padding 8px 18px
+		padding 12px 18px
+		height 125px
+	.img-help
+		float left
+		height 82px
+		width 81px
 	.help-content
-		width 341px
+		width 332px
 		float left
+	.help-description
+		float left
+		margin-left 45px
+		width 206px
 	.help-question
-		float left
+		float right
 		width 135px
 .copyright
 	background white
