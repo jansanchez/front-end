@@ -30,3 +30,5 @@ textColor6           = #000000  // black
 
 btnOutColor    = #E60000
 btnHoverColor= #EB0808
+
+bgTipColor = #E6E8EC

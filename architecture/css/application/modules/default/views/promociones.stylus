@@ -14,6 +14,7 @@
 		padding 0 0 14px 0
 	.anuncio
 		word-wrap break-word
+		padding 5px 0 0
 		a
 			text-decoration none
 		.demo-anuncio
@@ -46,6 +47,11 @@
 				margin: 0;
 				padding: 0 0 0 5px;
 				width: 210px;
+				display block
 			.logo-small
 				height: 65px;
 				margin: 15px 0 0;
+
+.soloTexto
+	width 98% !important
+	padding: 0 0 0 5px;
