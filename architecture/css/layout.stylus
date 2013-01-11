@@ -163,23 +163,23 @@ footer
 		setIconSet()
 	.pefectivo
 		setPosition(pefectivo)
-		height 28px
+		height 44px
 		width 71px
 	.visa
 		setPosition(visa)
-		height 22px
+		height 44px
 		width 71px
 	.verif-visa
 		setPosition(verifvisa)
-		height 28px
+		height 44px
 		width 71px
 	.mastercard
 		setPosition(mastercard)
-		height 28px
+		height 44px
 		width 71px
 	.smastercard
 		setPosition(smastercard)
-		height 28px
+		height 44px
 		width 71px
 .copyright
 	background white
