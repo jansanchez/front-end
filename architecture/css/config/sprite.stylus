@@ -26,6 +26,6 @@
 */
 
 elComercioPe = (x 0 ) (y 0px)
-rppNoticias = (x 125px ) (y 0px)
-peruCom = (x 250px ) (y 0px)
-peru21 = (x 375px ) (y 0px)
+rppNoticias = (x -125px ) (y 0px)
+peruCom = (x -250px ) (y 0px)
+peru21 = (x -375px ) (y 0px)
