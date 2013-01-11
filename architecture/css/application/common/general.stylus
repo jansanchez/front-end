@@ -69,3 +69,6 @@ h3
 	font-size 20px
 	font-weight 400
 	line-height 21px
+h4
+	color textColor2
+	font-size 14px
