@@ -1,0 +1,4 @@
+.red-home{list-style:none outside none;margin:0 0 10px 0;}
+.red-home li:first-child{margin:10px 15px 0 0}
+.red-home li{border-color:borderColor2;border-style:solid;border-width:1px;float:left;height:93px;list-style:none outside none;margin:10px 15px 0 0;width:123px;}
+.red-home li a{width:123px;height:93px;display:block;font-size:0;line-height:0;text-align:center;*text-indent:-9999px;}

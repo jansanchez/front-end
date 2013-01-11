@@ -27,17 +27,18 @@
 			line-height 0
 			text-align center
 			*text-indent: -9999px
+			setIconSet3()
 			&.elcomerciope
-				getIconSet3(elcomerciope)
+				setPosition(elcomerciope)
 			&.rppnoticias
-				getIconSet3(rppnoticias)
+				setPosition(rppnoticias)
 			&.perucom
-				getIconSet3(perucom)
+				setPosition(perucom)
 			&.peru21
-				getIconSet3(peru21)
+				setPosition(peru21)
 			&.trome
-				getIconSet3(trome)
+				setPosition(trome)
 			&.depor
-				getIconSet3(depor)
+				setPosition(depor)
 			&.correo
-				getIconSet3(correo)
+				setPosition(correo)
