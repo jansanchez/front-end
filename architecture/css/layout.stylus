@@ -187,13 +187,6 @@ footer
 	height 30px
 	padding 10px 0
 	margin-bottom 6px
-	.logo-small
-		height 30px
-		width 76px
-		background url('../../../../img/logo.png?version') no-repeat scroll 0 0 transparent
-		background-size @width @height
-		display block
-		float left
 	a
 		color textColor
 		display block
@@ -224,3 +217,12 @@ footer
 		position absolute
 		right 164px
 		top 9px
+
+
+.logo-small
+	height 30px
+	width 76px
+	background url('../../../../img/logo.png?version') no-repeat scroll 0 0 transparent
+	background-size @width @height
+	display block
+	float left

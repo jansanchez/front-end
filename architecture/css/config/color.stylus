@@ -20,10 +20,13 @@ borderColor2  = #DDDDDD
 borderColor3  = #666666
 borderColor4  = #EEEEEE
 
+
 textColor           = #333333  //negro
 textColor2        = #666666   //maso
 textColor3        = #999999   //plomo
 textColor4        = #FF0000   //rojo
+textColor5        = #3A2DBB   //morado
+textColor6           = #000000  // black
 
 btnOutColor    = #E60000
 btnHoverColor= #EB0808

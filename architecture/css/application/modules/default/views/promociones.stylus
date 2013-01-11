@@ -23,10 +23,26 @@
 			margin 0 0 10px;
 			padding 5px
 			a
-				text-decoration none
+				display: block;
+				float: left;
+				font-size 11px
 				color hoverColor
+				padding 0 0 0 5px
 				&:hover
 					color linkColor
 			.title
-				font-weight 400
-				color linkColor
+				color textColor5
+				font-size 15px
+				font-weight 700
+				line-height 14px
+				float: left;
+			p
+				color textColor6
+				float: left;
+				font-size: 11px;
+				margin: 0;
+				padding: 0 0 0 5px;
+				width: 210px;
+			.logo-small
+				height: 65px;
+				margin: 15px 0 0;
