@@ -3,10 +3,13 @@
 .red-home li:first-child{margin:10px 15px 0 0}
 .red-home li{border-color:#ddd;border-style:solid;border-width:1px;float:left;height:93px;list-style:none outside none;margin:10px 15px 0 0;width:123px;}
 .red-home li a{width:123px;height:93px;display:block;font-size:0;line-height:0;text-align:center;*text-indent:-9999px;}
-.red-home li a.elComercio{background:url("../../../../img/icon-set3.png?version") no-repeat scroll 0  0  transparent}
-.red-home li a.rppNoticias{background:url("../../../../img/icon-set3.png?version") no-repeat scroll -125px  0  transparent}
-.red-home li a.peruCom{background:url("../../../../img/icon-set3.png?version") no-repeat scroll -250px  0  transparent}
+.red-home li a.elcomerciope{background:url("../../../../img/icon-set3.png?version") no-repeat scroll 0  0  transparent}
+.red-home li a.rppnoticias{background:url("../../../../img/icon-set3.png?version") no-repeat scroll -125px  0  transparent}
+.red-home li a.perucom{background:url("../../../../img/icon-set3.png?version") no-repeat scroll -250px  0  transparent}
 .red-home li a.peru21{background:url("../../../../img/icon-set3.png?version") no-repeat scroll -375px  0  transparent}
+.red-home li a.trome{background:url("../../../../img/icon-set3.png?version") no-repeat scroll -500px  0  transparent}
+.red-home li a.depor{background:url("../../../../img/icon-set3.png?version") no-repeat scroll -625px  0  transparent}
+.red-home li a.correo{background:url("../../../../img/icon-set3.png?version") no-repeat scroll -750px  0  transparent}
 .panel-port{overflow:hidden;width:100%;height:190px;border:1px solid #ddd;}
 .panel-port span{width:125px;height:95px;margin:2px auto}
 .panel-port .desc{padding:5px}
