@@ -17,6 +17,7 @@ hoverColor2   = #173697
 
 borderColor    = #CCCCCC
 borderColor2  = #DDDDDD
+borderColor3  = #666666
 
 textColor           = #333333  //negro
 textColor2        = #666666   //maso
