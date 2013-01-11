@@ -5,40 +5,39 @@
 */
 
 .btn
-	background-color #227FE7
-	background-image -ms-linear-gradient(top, #227FE7, #19559B)
-	background-image -webkit-gradient(linear, 0 0, 0 100%, from( #227FE7), to(#19559B))
-	background-image -webkit-linear-gradient(top, #227FE7, #19559B)
-	background-image -o-linear-gradient(top, #227FE7,#19559B)
-	background-image linear-gradient(to bottom, #227FE7, #19559B)
-	background-image -moz-linear-gradient(to bottom, #227FE7,#19559B )
-	background-image unquote("url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPgo8bGluZWFyR3JhZGllbnQgaWQ9Imc1MSIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMCUiIHkyPSIxMDAlIj4KPHN0b3Agc3RvcC1jb2xvcj0iIzIyN0ZFNyIgb2Zmc2V0PSIwIi8+PHN0b3Agc3RvcC1jb2xvcj0iIzE5NTU5QiIgb2Zmc2V0PSIxIi8+CjwvbGluZWFyR3JhZGllbnQ+CjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9InVybCgjZzUxKSIgLz4KPC9zdmc+)")
-	border-color #227FE7 #175498 #195EAC
+	background-color #FF0000
+	background-image -ms-linear-gradient(top, #FF0000, #E60000)
+	background-image -webkit-gradient(linear, 0 0, 0 100%, from( #FF0000), to(#E60000))
+	background-image -webkit-linear-gradient(top, #FF0000, #E60000)
+	background-image -o-linear-gradient(top, #FF0000,#E60000)
+	background-image linear-gradient(to bottom, #FF0000, #E60000)
+	background-image -moz-linear-gradient(to bottom, #FF0000,#E60000 )
+	background-image unquote("url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmMDAwMCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNlNjAwMDAiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+)")
+	border-color #E60000
 	border-image none
 	border-radius 4px
 	border-style solid
 	border-width 1px
-	box-shadow 0 1px 0 rgba(255, 255, 255, 0.2) inset, 0 1px 2px rgba(0, 0, 0, 0.05)
 	*border none
 	color #FFF
 	display inline-block
 	*display inline
-	font 400 15px/17px arial
+	font 700 16px/18px 'century',arial
 	padding 7px 16px
 	text-decoration none
-	text-shadow -1px 1px 1px #251D1D
 	transition background-position 0.1s linear
 	vertical-align middle
 	&:hover
-		background #19559B
-		background-image -ms-linear-gradient(top, #19559B, #217DE4)
-		background-image -webkit-gradient(linear, 0 0, 0 100%, from( #19559B), to(#217DE4))
-		background-image -webkit-linear-gradient(top, #19559B, #217DE4)
-		background-image -o-linear-gradient(top, #19559B,#217DE4)
-		background-image linear-gradient(top, #19559B, #217DE4)
-		background-image -moz-linear-gradient(top, #19559B,#217DE4 )
-		background-image unquote("url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPgo8bGluZWFyR3JhZGllbnQgaWQ9Imc1MzUiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4MT0iMCUiIHkxPSIwJSIgeDI9IjAlIiB5Mj0iMTAwJSI+CjxzdG9wIHN0b3AtY29sb3I9IiMxOTU1OUIiIG9mZnNldD0iMCIvPjxzdG9wIHN0b3AtY29sb3I9IiMyMTdERTQiIG9mZnNldD0iMSIvPgo8L2xpbmVhckdyYWRpZW50Pgo8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2c1MzUpIiAvPgo8L3N2Zz4=)")
-		border-color #195EAC #175498 #227FE7
+		background #E60000
+		background-image -ms-linear-gradient(top, #E60000, #FF0000)
+		background-image -webkit-gradient(linear, 0 0, 0 100%, from( #E60000), to(#FF0000))
+		background-image -webkit-linear-gradient(top, #E60000, #FF0000)
+		background-image -o-linear-gradient(top, #E60000,#FF0000)
+		background-image linear-gradient(top, #E60000, #FF0000)
+		background-image -moz-linear-gradient(top, #E60000,#FF0000 )
+		background-image unquote("url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2U2MDAwMCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmZjAwMDAiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+)")
+		border-color #FF0000
+		color #FFF
 .btn-large
 	font-size 18px
 	line-height 20px
