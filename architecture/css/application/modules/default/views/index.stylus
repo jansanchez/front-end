@@ -5,6 +5,11 @@
 */
 
 .pasos-de-uso
+	.video-pasos
+		width 160px
+		height 155px
+		setIconSet4()
+		setPosition(videopasos)
 	ul
 		li
 			list-style: none outside none;

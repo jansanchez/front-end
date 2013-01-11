@@ -48,3 +48,13 @@ capital = (x -500px ) (y -190px)
 felicidad = (x 0 ) (y -285px)
 bravaza = (x -125px ) (y -285px)
 lazona = (x -250px ) (y -285px)
+
+
+/**
+* Lista de sprites para el archivo icon-set4.png
+* @submodule icon-set4
+* @main icon
+*/
+
+elcomerciope = (x 0 ) (y 0px)
+rppnoticias = (x -125px ) (y 0px)

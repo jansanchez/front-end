@@ -19,4 +19,5 @@ $IMG_PATH = "../../../../img/"
 $ICON_SET = "icon-set.png"
 $ICON_SET2 = "icon-set2.png"
 $ICON_SET3 = "icon-set3.png"
+$ICON_SET4 = "icon-set4.png"
 

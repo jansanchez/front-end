@@ -16,6 +16,9 @@ getIconSet2(arreglo)
 getIconSet3(arreglo)
 	background url($IMG_PATH+$ICON_SET3"?version") no-repeat scroll get(arreglo, x) get(arreglo, y) transparent
 
+getIconSet4(arreglo)
+	background url($IMG_PATH+$ICON_SET4"?version") no-repeat scroll get(arreglo, x) get(arreglo, y) transparent
+
 setIconSet()
 	background url($IMG_PATH+$ICON_SET"?version") no-repeat scroll 0 0 transparent
 
