@@ -19,12 +19,8 @@ h3{color:#333;font-size:20px;font-weight:400;line-height:21px}
 .input-xsmall{width:38px !important}
 .input-medium{width:126px !important}
 .input-large{width:290px !important}
-.v-all{display:block;padding:5px}
-.pb15{padding-bottom:15px}
-.lt-ie9 .dg-black{filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#313131', endColorstr='#0D0D0D',GradientType=0);*zoom:1}
-.lt-ie9 .btn{filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#227FE7', endColorstr='#19559B',GradientType=0);*zoom:1;}
-.lt-ie9 .btn:hover{filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#19559B', endColorstr='#227FE7',GradientType=0)}
-.lt-ie9 .bx-note .cbox{background:#fff;border-bottom:1px solid #ebebeb}
+.lt-ie9 .btn{filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#FF0000', endColorstr='#E60000',GradientType=0);*zoom:1;}
+.lt-ie9 .btn:hover{filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#E60000', endColorstr='#FF0000',GradientType=0)}
 .pt10{padding-top:10px}
 .pt20{padding-top:20px}
 .pt30{padding-top:30px}

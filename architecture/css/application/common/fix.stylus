@@ -4,23 +4,9 @@
 * @module css-architecture
 */
 
-.v-all
-	display block
-	padding 5px
-.pb15
-	padding-bottom 15px
-.lt-ie9
-	.dg-black
-		filter unquote("progid:DXImageTransform.Microsoft.gradient( startColorstr='#313131', endColorstr='#0D0D0D',GradientType=0)")
-		*zoom 1
 .lt-ie9
 	.btn
-		filter unquote("progid:DXImageTransform.Microsoft.gradient( startColorstr='#227FE7', endColorstr='#19559B',GradientType=0)")
+		filter unquote("progid:DXImageTransform.Microsoft.gradient( startColorstr='#FF0000', endColorstr='#E60000',GradientType=0)")
 		*zoom 1
 		&:hover
-			filter unquote("progid:DXImageTransform.Microsoft.gradient( startColorstr='#19559B', endColorstr='#227FE7',GradientType=0)")
-.lt-ie9
-	.bx-note
-		.cbox
-			background #FFF
-			border-bottom 1px solid #EBEBEB
+			filter unquote("progid:DXImageTransform.Microsoft.gradient( startColorstr='#E60000', endColorstr='#FF0000',GradientType=0)")
