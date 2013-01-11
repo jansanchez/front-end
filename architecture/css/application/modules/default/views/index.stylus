@@ -48,6 +48,8 @@
 				setPosition(gestion)
 			&.ojo
 				setPosition(ojo)
+			&.elbocon
+				setPosition(elbocon)
 			&.correo
 				setPosition(correo)
 			&.oxigeno

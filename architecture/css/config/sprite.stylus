@@ -37,8 +37,8 @@ studio92 = (x -250px ) (y -95px)
 gestion = (x -375px ) (y -95px)
 ojo = (x -500px ) (y -95px)
 
-oxigeno = (x 0px ) (y -190px)
-aja = (x -125px ) (y -190px)
-
+elbocon = (x 0px ) (y -190px)
+oxigeno = (x -125px ) (y -190px)
+aja = (x -250px ) (y -190px)
 
 
