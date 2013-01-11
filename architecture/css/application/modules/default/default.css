@@ -92,4 +92,5 @@
 .sidebar .anuncio .demo-anuncio .title{color:#1b2fc4;font-size:15px;font-weight:700;line-height:14px;float:left}
 .sidebar .anuncio .demo-anuncio p{color:#000;float:left;font-size:11px;margin:0;padding:0 0 0 5px;width:210px;display:block}
 .sidebar .anuncio .demo-anuncio .logo-small{height:65px;margin:15px 0 0}
+.sidebar .conoce{height:50px;margin:25px 0 0;padding:5px;background:url("../../../../img/icon-set.png?version") no-repeat scroll 0 0 transparent;background-position:-368px  -150px;background-color:#e6e8ec}
 .soloTexto{width:98% !important;padding:0 0 0 5px}
