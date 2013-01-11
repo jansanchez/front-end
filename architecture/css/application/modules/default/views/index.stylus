@@ -3,6 +3,8 @@
 * @submodule index
 * @main default
 */
+
+
 .red-home
 	list-style none outside none
 	margin 0 0 10px 0
@@ -21,5 +23,5 @@
 			width @width 
 			height @height
 			display block
-		&.elComercio
-			getIconSet3(elComercioPe)
+			&.elComercio
+				getIconSet3(elComercioPe)
