@@ -44,7 +44,7 @@
 		margin-left 2%
 .grid8
 	width 54%
-.grid4
+.grid2
 	width 29%
 	& + .grid8
 		margin-left 17%
