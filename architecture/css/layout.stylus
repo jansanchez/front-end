@@ -83,6 +83,8 @@ footer
 	font-family arial
 	height 431px
 	padding 22px 0 8px
+	a
+		text-decoration none
 	h3
 		border-bottom 1px solid #DDD
 		font-size 18px
@@ -111,7 +113,6 @@ footer
 			padding 0 5px
 			a
 				font 400 12px/14px Arial,sans-serif
-				text-decoration none
 		.last
 			border medium none
 .footer-wrap
@@ -127,6 +128,7 @@ footer
 		padding 12px 18px
 		height 125px
 	.img-help
+		getIconSet(centralhelp)
 		float left
 		height 82px
 		width 81px
@@ -136,9 +138,13 @@ footer
 		float left
 	.help-description
 		float left
+		font-family 'century', arial
 		margin-left 22px
-		width 220px
-		font-family
+		width 210px
+		text-align center
+	p
+		text-align left
+		margin-bottom 22px
 	.help-question
 		float right
 		width 135px
@@ -158,7 +164,6 @@ footer
 	a
 		color textColor
 		display block
-		text-decoration none
 		&:hover
 			text-decoration underline
 	ul
@@ -179,7 +184,7 @@ footer
 		float right
 		border none
 	.book-claims
-		background url('../img/icon-set.png?version') no-repeat -362px -24px
+		getIconSet(bookclaims)
 		font 10px/15px Arial,sans-serif
 		height 15px
 		padding-left 42px

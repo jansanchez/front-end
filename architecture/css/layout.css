@@ -57,26 +57,29 @@ header h1 img{display:block}
 #main-menu li a{background:#eff4fa;border-color:#eff4fa;-webkit-border-radius:8px 8px 0 0;-moz-border-radius:8px 8px 0 0;-ms-border-radius:8px 8px 0 0;-o-border-radius:8px 8px 0 0;border-radius:8px 8px 0 0;border-style:solid;border-width:1px 1px 0;display:block;font-family:'century',Arial,sans-serif,sans-serif;font-size:16px;line-height:23px;padding:7px 7px 6px;text-decoration:none;}
 #main-menu li a.active,#main-menu li a:hover{color:#666;background:#fff;border-color:#ccc;-webkit-border-radius:8px 8px 0 0;-moz-border-radius:8px 8px 0 0;-ms-border-radius:8px 8px 0 0;-o-border-radius:8px 8px 0 0;border-radius:8px 8px 0 0;border-style:solid;border-width:1px 1px 0;padding:7px 7px 7px}
 footer{background:none repeat scroll 0 0 #eff4fa;border-color:#ccc;border-style:solid;border-width:1px 0 0 0;font-family:Arial,sans-serif;height:431px;padding:22px 0 8px;}
+footer a{text-decoration:none}
 footer h3{border-bottom:1px solid #ddd;font-size:18px;line-height:20px;margin-bottom:16px;padding-bottom:4px}
 footer li{margin:0}
 footer .visit-also{color:#666;float:left;font:400 12px/15px Arial,sans-serif;width:85px;padding-top:2px}
 footer .visit-also-list{float:left;list-style:none outside none;margin:0;padding:0 0 2px 0;width:895px;}
 footer .visit-also-list li{border-right:1px solid #666;float:left;line-height:12px;margin:2px 0 0 0;padding:0 5px;}
-footer .visit-also-list li a{font:400 12px/14px Arial,sans-serif;text-decoration:none}
+footer .visit-also-list li a{font:400 12px/14px Arial,sans-serif}
 footer .visit-also-list .last{border:medium none}
 .footer-wrap ul{font:12px/13px 'century',Arial,sans-serif;margin-bottom:0}
 .footer-wrap li{margin-top:8px}
 .footer-wrap .box-help{background:#fff;border:1px solid #ccc;-webkit-border-radius:5px;-moz-border-radius:5px;-ms-border-radius:5px;-o-border-radius:5px;border-radius:5px;padding:12px 18px;height:125px}
-.footer-wrap .img-help{float:left;height:82px;width:81px;border:2px solid #303030}
+.footer-wrap .img-help{background:url("../../../../img/icon-set.png?version") no-repeat scroll -144px  -194px  transparent;float:left;height:82px;width:81px;border:2px solid #303030}
 .footer-wrap .help-content{width:332px;float:left}
-.footer-wrap .help-description{float:left;margin-left:22px;width:220px;font-family}
+.footer-wrap .help-description{float:left;font-family:'century',Arial,sans-serif;margin-left:22px;width:210px;text-align:center}
+.footer-wrap p{text-align:left;margin-bottom:22px}
 .footer-wrap .help-question{float:right;width:135px}
 .copyright{background:#fff;color:#333;height:30px;padding:10px 0;margin-bottom:6px;}
 .copyright .logo-small{height:30px;width:76px;background:url("../../../../img/logo.png?version") no-repeat scroll 0 0 transparent;background-size:76px 30px;display:block;float:left}
-.copyright a{color:#333;display:block;text-decoration:none;}
+.copyright a{color:#333;display:block;}
 .copyright a:hover{text-decoration:underline}
 .copyright ul{color:#333;float:left;font:10px/12px Arial,sans-serif;list-style:none;margin:0 0 0 16px;padding-top:10px;width:888px}
 .copyright li{border-right:1px solid #333;float:left;padding:0 7px;}
 .copyright li:first-child{border:none}
 .copyright .last{float:right;border:none}
-.copyright .book-claims{background:url("../img/icon-set.png?version") no-repeat -362px -24px;font:10px/15px Arial,sans-serif;height:15px;padding-left:42px;position:absolute;right:164px;top:9px}
+.copyright .book-claims{background:url("../../../../img/icon-set.png?version") no-repeat scroll -362px  -24px  transparent;font:10px/15px Arial,sans-serif;height:15px;padding-left:42px;position:absolute;right:164px;top:9px}
+

@@ -23,7 +23,7 @@
 .red-home li a.bravaza{background-position:-125px  -285px }
 .red-home li a.lazona{background-position:-250px  -285px }
 .panel-port{overflow:hidden;height:190px;border:1px solid #ddd;}
-.panel-port span{width:125px;height:95px;margin:2px auto}
+.panel-port span{width:125px;height:95px;margin:2px auto;display:block}
 .panel-port .desc{padding:5px}
 .row .panel-port:last-child{margin:0}
 

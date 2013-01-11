@@ -10,11 +10,11 @@
 			float left
 			margin 0 (2*$MARGIN_PAGE) 0 0
 			width (($WIDTH_COL*(i+1)) + ($MARGIN_PAGE*2)*i)
-			font-size ((i-1) + 0px)
+			font-size i
 			overflow hidden
 			&:last-child
 				margin 0
-		if i==$NUM_COLS - 1
+		if i==($NUM_COLS - 1)
 			.col50
 				float left
 				margin 0 (2*$MARGIN_PAGE) 0 0
