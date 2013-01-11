@@ -30,5 +30,6 @@ rppnoticias = (x -125px ) (y 0px)
 perucom = (x -250px ) (y 0px)
 peru21 = (x -375px ) (y 0px)
 trome = (x -500px ) (y 0px)
-depor = (x -625px ) (y 0px)
-correo = (x -750px ) (y 0px)
+
+depor = (x 0 ) (y -93px)
+correo = (x -125px ) (y -93px)
