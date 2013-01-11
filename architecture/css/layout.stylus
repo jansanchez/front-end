@@ -125,6 +125,12 @@ footer
 		border 1px solid borderColor
 		border-radius 5px
 		padding 8px 18px
+	.help-content
+		width 341px
+		float left
+	.help-question
+		float left
+		width 135px
 .copyright
 	background white
 	color textColor
