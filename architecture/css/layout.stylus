@@ -124,7 +124,8 @@ footer
 		background white
 		border 1px solid borderColor
 		border-radius 5px
-		padding 8px 18px
+		padding 12px 18px
+		height 125px
 	.help-content
 		width 341px
 		float left

@@ -66,7 +66,7 @@ footer .visit-also-list li a{font:400 12px/14px Arial,sans-serif;text-decoration
 footer .visit-also-list .last{border:medium none}
 .footer-wrap ul{font:12px/13px 'century',Arial,sans-serif;margin-bottom:0}
 .footer-wrap li{margin-top:8px}
-.footer-wrap .box-help{background:#fff;border:1px solid #ccc;-webkit-border-radius:5px;-moz-border-radius:5px;-ms-border-radius:5px;-o-border-radius:5px;border-radius:5px;padding:8px 18px}
+.footer-wrap .box-help{background:#fff;border:1px solid #ccc;-webkit-border-radius:5px;-moz-border-radius:5px;-ms-border-radius:5px;-o-border-radius:5px;border-radius:5px;padding:12px 18px;height:125px}
 .footer-wrap .help-content{width:341px;float:left}
 .footer-wrap .help-question{float:left;width:135px}
 .copyright{background:#fff;color:#333;height:30px;padding:10px 0;margin-bottom:6px;}
