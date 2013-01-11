@@ -67,7 +67,10 @@ footer .visit-also-list .last{border:medium none}
 .copyright .logo-small{height:30px;width:76px;background:url("../../../../img/logo.png?version") no-repeat scroll 0 0 transparent;background-size:76px 30px;display:block;float:left}
 .copyright a{color:#333;display:block;text-decoration:none;}
 .copyright a:hover{text-decoration:underline}
-.copyright ul{color:#333;float:left;font:10px/12px Arial,sans-serif;list-style:none;margin:0 0 0 16px;padding-top:10px}
+.copyright ul{color:#333;float:left;font:10px/12px Arial,sans-serif;list-style:none;margin:0 0 0 16px;padding-top:10px;width:888px}
 .copyright li{border-right:1px solid #333;float:left;padding:0 7px;}
 .copyright li:first-child{border:none}
+.copyright .last{float:right;border:none}
+.copyright .book-claims{background:url("../img/icon-set.png?version") no-repeat -362px -24px;font:10px/15px Arial,sans-serif;height:15px;padding-left:42px;position:absolute;right:164px;top:9px}
 .btnRegister{background:url("imgPathiconSet?version") no-repeat scroll 0  -32px  transparent}
+

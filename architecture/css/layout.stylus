@@ -97,7 +97,7 @@ footer
 		padding 0px 0 2px 0
 		width $WIDTH_PAGE - 85px
 		li
-			border-right 1px solid textColor2
+			border-right 1px solid borderColor3
 			float left
 			line-height 12px
 			margin 2px 0 0 0
@@ -133,13 +133,24 @@ footer
 		list-style none
 		margin 0 0 0 16px
 		padding-top 10px
+		width 888px
 	li
 		border-right 1px solid textColor
 		float left
 		padding 0 7px
 		&:first-child
 			border none
-
+	.last
+		float right
+		border none
+	.book-claims
+		background url('../img/icon-set.png?version') no-repeat -362px -24px
+		font 10px/15px Arial,sans-serif
+		height 15px
+		padding-left 42px
+		position absolute
+		right 164px
+		top 9px
 
 
 
