@@ -10,7 +10,6 @@
 			float left
 			margin 0 (2*$MARGIN_PAGE) 0 0
 			width (($WIDTH_COL*(i+1)) + ($MARGIN_PAGE*2)*i)
-			font-size i
 			overflow hidden
 			&:last-child
 				margin 0
@@ -57,7 +56,7 @@
 	background bodyColor
 	margin 0 auto
 	padding $PADDING_WRAPPER
-	width $WIDTH_PAGE
+	width $WIDTH_PAGE - (2*$MARGIN_PAGE)
 	*zoom 1
 	&:before,&:after
 		display table
