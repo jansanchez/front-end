@@ -14,7 +14,7 @@ $PADDING_WRAPPER = 40px 10px   //paddingWrapper
 $FONT_SIZE = 13px
 $LINE_HEIGHT = 14px
 
-$IMG_PATH = "../img/"
+$IMG_PATH = "../../../../img/"
 $ICON_SET = "icon-set.png"
 $ICON_SET2 = "icon-set2.png"
 $ICON_SET3 = "icon-set3.png"

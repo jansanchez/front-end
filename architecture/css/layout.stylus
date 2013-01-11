@@ -175,11 +175,3 @@ footer
 		position absolute
 		right 164px
 		top 9px
-
-
-
-
-
-
-.btnRegister
-	getIconSet(btnRegister)

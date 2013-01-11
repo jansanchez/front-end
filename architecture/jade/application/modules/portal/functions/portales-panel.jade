@@ -1,7 +1,13 @@
-mixin createPanel()
+//-Private
+mixin createPanel(clsBg, text)
 	.col3
 		.panel-port
-			span
-			.desc
-				
+			span(class='#{clsBg}')
+			.desc != text
 
+//-Public
+mixin createGrids(data)
+	.row
+		each item in data
+			each val, key in item
+				mixin createPanel(key, val)
