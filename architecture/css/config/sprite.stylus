@@ -81,8 +81,24 @@ videopresentacion = (x 0 ) (y -164px)
 * @main icon
 */
 
-elcomerciope2 = (x 0 ) (y 0px)
+elcomerciope2    = (x 0 ) (y 0px)
 rppnoticias2     = (x -70px ) (y 0px)
-perucom2         = (x -125px ) (y 0px)
-peru212            = (x -187.5px ) (y 0px)
-trome2             = (x -250px ) (y 0px)
+perucom2         = (x -140px ) (y 0px)
+peru212          = (x -210px ) (y 0px)
+trome2           = (x -280px ) (y 0px)
+
+depor2           = (x 0 ) (y -50px)
+correo2          = (x -70px ) (y -50px)
+studio922        = (x -140px ) (y -50px)
+gestion2         = (x -210px ) (y -50px)
+ojo2             = (x -280px ) (y -50px)
+
+elbocon2         = (x 0px ) (y -100px)
+oxigeno2         = (x -70px ) (y -100px)
+aja2             = (x -140px ) (y -100px)
+publimetro2      = (x -210px ) (y -100px)
+capital2         = (x -280px ) (y -100px)
+
+felicidad2       = (x 0 ) (y -150px)
+bravaza2         = (x -70px ) (y -150px)
+lazona2          = (x -140px ) (y -150px)
