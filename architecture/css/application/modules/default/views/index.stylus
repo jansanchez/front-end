@@ -17,5 +17,9 @@
 		list-style none outside none
 		margin 10px 15px 0 0
 		width  123px
-		&:elComercio
+		a
+			width @width 
+			height @height
+			display block
+		&.elComercio
 			getIconSet3(elComercioPe)
