@@ -56,9 +56,12 @@ iframe{display:block}
 .row{margin-bottom:25px;*zoom:1;}
 .row:before,.row:after{display:table;content:"";line-height:0}
 .row:after{clear:both}
-[class^="grid"]{float:left;}
-[class^="grid"]:first-child{margin:0}
-.grid6{width:49%;margin-left:2%}
+[class^="grid"]{float:left}
+.grid6{width:49%;}
+.grid6 + .grid6{margin-left:2%}
+.grid8{width:54%}
+.grid4{width:29%;}
+.grid4 + .grid8{margin-left:17%}
 #wrapper{background:#fff;margin:0 auto;padding:40px 10px;width:980px;*zoom:1;}
 #wrapper:before,#wrapper:after{display:table;content:"";line-height:0}
 #wrapper:after{clear:both}

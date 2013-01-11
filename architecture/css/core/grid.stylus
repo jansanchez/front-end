@@ -37,11 +37,16 @@ for i in 1...($NUM_COLS +1)  //-Estilo para las columnas
 
 [class^="grid"]
 	float left
-	&:first-child
-		margin 0
 .grid6
 	width 49%
-	margin-left 2%
+	& + .grid6
+		margin-left 2%
+.grid8
+	width 54%
+.grid4
+	width 29%
+	& + .grid8
+		margin-left 17%
 
 // ------------------------------
 
