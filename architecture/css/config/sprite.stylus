@@ -27,7 +27,7 @@ smastercard = (x -72px) (y -150px)
 arrowleft = (x -200px) (y 0px)
 arrowright = (x -214px) (y 0px)
 
-conoce =  (x -368px) (y -150px)
+conoce =  (x -360px) (y -150px)
 
 /**
 * Lista de sprites para el archivo icon-set2.png
