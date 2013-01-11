@@ -12,7 +12,7 @@
 .pasos-de-uso ul #step-planifica{background-position:-100px  0}
 .pasos-de-uso ul #step-monitorea{background-position:-150px  0}
 .red-home{list-style:none outside none;margin:0 0 10px 0;}
-.red-home li{border-color:#ddd;border-style:solid;border-width:1px;float:left;height:93px;list-style:none outside none;margin:10px 15px 0 0;width:123px;}
+.red-home li{border-color:#ddd;border-style:solid;border-width:1px;float:left;height:93px;list-style:none outside none;margin:10px 13px 0 0;width:123px;}
 .red-home li a{width:123px;height:93px;display:block;font-size:0;line-height:0;text-align:center;*text-indent:-9999px;background:url("../../../../img/icon-set3.png?version") no-repeat scroll 0 0 transparent;}
 .red-home li a.elcomerciope{background-position:0  0}
 .red-home li a.rppnoticias{background-position:-125px  0}
@@ -33,7 +33,7 @@
 .red-home li a.felicidad{background-position:0  -285px}
 .red-home li a.bravaza{background-position:-125px  -285px}
 .red-home li a.lazona{background-position:-250px  -285px}
-.red-home li:first-child{margin:10px 15px 0 0}
+.red-home li:first-child{margin:10px 13px 0 0}
 .panel-port{overflow:hidden;height:190px;border:1px solid #ddd;}
 .panel-port span{width:125px;height:95px;margin:2px auto;display:block;background:url("../../../../img/icon-set3.png?version") no-repeat scroll 0 0 transparent;}
 .panel-port span.elcomerciope{background-position:0  0}
