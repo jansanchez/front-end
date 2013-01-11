@@ -42,3 +42,27 @@
 				setPosition(depor)
 			&.correo
 				setPosition(correo)
+			&.studio92
+				setPosition(studio92)
+			&.gestion
+				setPosition(gestion)
+			&.ojo
+				setPosition(ojo)
+			&.elbocon
+				setPosition(elbocon)
+			&.correo
+				setPosition(correo)
+			&.oxigeno
+				setPosition(oxigeno)
+			&.aja
+				setPosition(aja)
+			&.publimetro
+				setPosition(publimetro)
+			&.capital
+				setPosition(capital)
+			&.felicidad
+				setPosition(felicidad)
+			&.bravaza
+				setPosition(bravaza)
+			&.lazona
+				setPosition(lazona)
