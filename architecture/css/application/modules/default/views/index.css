@@ -1,3 +1,14 @@
+.video-presentacion{height:372px;width:491px;display:block;}
+.arrow-left{display:block;height:24px;position:absolute;top:30px;width:14px;}
+.slideshow{clear:both;height:55px;padding:15px 0 20px;position:relative;}
+.slideshow .slide{display:block;height:55px;left:15px;list-style:none outside none;margin:0;position:absolute;width:427px;}
+.slideshow .slide li{list-style:none outside none;float:left;width:70px;margin:0 0 0 13px;border-color:borderColor2;border-style:solid;border-width:1px;}
+.slideshow .slide li a{display:block;height:53px;width:70px;}
+.arrow-right{display:block;height:24px;position:absolute;right:0;top:30px;width:14px;}
+.registrate{font-size:h4;color:textColor2;}
+.registrate .free{color:textColor;font-size:h3}
+.registrate .offer-price{color:textColor4;font-size:h7}
+.campana{margin:20px 0 0 110px}
 .pasos-de-uso{padding:15px 0 0 0;}
 .pasos-de-uso .video-pasos{width:286px;height:166px;display:block;float:left}
 .pasos-de-uso ul{float:right;}
@@ -10,6 +21,6 @@
 .red-home li{border-color:borderColor2;border-style:solid;border-width:1px;float:left;height:93px;list-style:none outside none;margin:10px 12px 0 0;width:123px;}
 .red-home li a{width:123px;height:93px;display:block;font-size:0;line-height:0;text-align:center;*text-indent:-9999px;}
 .red-home li:first-child{margin:10px 12px 0 0}
-.panel-home span{width:177px;height:110px;display:block;overflow:hidden;border:0 solid #ddd;margin:1px auto;}
-.panel-home .desc{padding:2px;text-align:center}
-
+.panel-home span{width:180px;height:110px;display:block;overflow:hidden;border:0 solid #ddd;margin:1px auto;}
+.panel-home .desc{padding:12px 2px 2px 2px;text-align:center}
+.opciones{padding:30px 0 0}

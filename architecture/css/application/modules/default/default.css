@@ -55,7 +55,7 @@
 .panel-home span.fig2{background-position:-180px  0}
 .panel-home span.fig3{background-position:0  -110px}
 .panel-home span.fig4{background-position:-180px  -110px}
-.panel-home .desc{padding:2px;text-align:center}
+.panel-home .desc{padding:12px 2px 2px 2px;text-align:center}
 .opciones{padding:30px 0 0}
 /*Portales Module*/
 .panel-port{overflow:hidden;height:190px;border:1px solid #ddd;}
