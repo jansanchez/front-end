@@ -157,7 +157,7 @@ footer
 		*display inline
 		*zoom 1
 	span
-		padding 10px 0 0 180px
+		padding 10px 0 0 130px
 	a
 		margin-left 20px
 		setIconSet()
