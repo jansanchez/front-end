@@ -25,3 +25,9 @@
 			display block
 			&.elComercio
 				getIconSet3(elComercioPe)
+			&.rppNoticias
+				getIconSet3(rppNoticias)
+			&.peruCom
+				getIconSet3(peruCom)
+			&.peru21
+				getIconSet3(peru21)
