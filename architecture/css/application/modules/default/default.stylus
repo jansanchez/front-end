@@ -6,3 +6,4 @@
 
 /*!Index Module*/
 @import "views/index.stylus";
+@import "views/portales.stylus";

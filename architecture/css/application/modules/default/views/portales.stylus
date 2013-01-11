@@ -1,0 +1,7 @@
+.panel-port
+	overflow hidden
+	width 100%
+	height 190px
+	border 1px solid #DDD
+	span
+		
