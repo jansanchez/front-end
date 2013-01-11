@@ -4,7 +4,7 @@
 * @main default
 */
 .red-home
-	list-style: none outside none;
+	list-style none outside none
 	li
 		float left
 		height 93px

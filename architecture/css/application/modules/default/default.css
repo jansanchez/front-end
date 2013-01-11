@@ -1,2 +1,4 @@
 /*Index Module*/
-
+.red-home{list-style:none outside none;}
+.red-home li{float:left;height:93px;list-style:none outside none;padding:0 7px;width:123px}
+.panel-port{overflow:hidden;width:100%;height:190px;border:1px solid #ddd;span}
