@@ -70,4 +70,4 @@ a = ( (m (k 0) (l 1) )  (n  (e 2) (f 2) ) )
 */
 
 videopasos     = (x 0 ) (y 0px)
-videoprincipal = (x -125px ) (y 0px)
+videopresentacion = (x 0 ) (y -164px)
