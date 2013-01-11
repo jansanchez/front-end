@@ -14,6 +14,7 @@ option{border-top:1px solid #ddd;overflow:hidden;padding:2px 5px;vertical-align:
 h1,h2,h3{font-family:'century',Arial,sans-serif;margin:0 0 15px}
 h2{color:#333;font-size:24px;line-height:25px;border-color:#ddd;border-style:solid;border-width:0 0 1px 0;padding:0 0 10px 0}
 h3{color:#333;font-size:20px;font-weight:400;line-height:21px}
+h4{color:#666;font-size:14px;font-weight:400;margin:15px 0 10px 0}
 @font-face{font-family:'century';src:url("../wf/century/century-webfont.eot?version");src:url("../wf/century/century-webfont.eot?#iefix") format('embedded-opentype'),url("../wf/century/century-webfont.ttf?version") format('truetype');font-weight:normal;font-style:normal}
 .input-small{width:69px !important}
 .input-xsmall{width:38px !important}
@@ -80,7 +81,6 @@ footer .visit-also-list .last{border:medium none}
 .means-of-payment .mastercard{background-position:0  -150px ;height:44px;width:71px}
 .means-of-payment .smastercard{background-position:-72px  -150px ;height:44px;width:71px}
 .copyright{background:#fff;color:#333;height:30px;padding:10px 0;margin-bottom:6px;}
-.copyright .logo-small{height:30px;width:76px;background:url("../../../../img/logo.png?version") no-repeat scroll 0 0 transparent;background-size:76px 30px;display:block;float:left}
 .copyright a{color:#333;display:block;}
 .copyright a:hover{text-decoration:underline}
 .copyright ul{color:#333;float:left;font:10px/12px Arial,sans-serif;list-style:none;margin:0 0 0 16px;padding-top:10px;width:888px}
@@ -88,4 +88,5 @@ footer .visit-also-list .last{border:medium none}
 .copyright li:first-child{border:none}
 .copyright .last{float:right;border:none}
 .copyright .book-claims{background:url("../../../../img/icon-set.png?version") no-repeat scroll -362px  -24px  transparent;font:10px/15px Arial,sans-serif;height:15px;padding-left:42px;position:absolute;right:164px;top:9px}
+.logo-small{height:30px;width:76px;background:url("../../../../img/logo.png?version") no-repeat scroll 0 0 transparent;background-size:76px 30px;display:block;float:left}
 

@@ -80,7 +80,7 @@
 	margin: 20px 0 0 110px;
 
 .pasos-de-uso
-	padding 15px 0 0 0
+	padding 15px 0 25px 0
 	.video-pasos
 		width 286px
 		height 166px
@@ -214,5 +214,8 @@
 		&.fig4
 			setPosition(fig4)
 	.desc
-		padding 2px
+		padding 12px 2px 2px 2px
 		text-align center
+
+.opciones
+	padding: 30px 0 0;
