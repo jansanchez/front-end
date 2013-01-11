@@ -22,7 +22,7 @@
 .slideshow
 	clear: both;
 	height: 55px;
-	padding: 15px 0 20px;
+	padding: 15px 0 22px;
 	position: relative;
 	.slide
 		display: block;
@@ -67,14 +67,21 @@
 	setPosition(arrowright)
 
 .registrate
-	font-size h4
 	color textColor2
+	font-size 16px
+	padding-left 36px
+	.free,.offer-price
+		display block
 	.free
-		color textColor
-		font-size h3
+		span
+			color textColor
+			font-size h3
 	.offer-price
-		color textColor4
-		font-size h7
+		margin-top 10px
+		padding-left 120px
+		span
+			color textColor4
+			font-size h7
 
 .campana
 	margin: 20px 0 0 110px;
