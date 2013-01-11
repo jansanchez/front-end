@@ -120,3 +120,15 @@
 				setPosition(lazona)
 	li:first-child
 		margin 10px 12px 0 0
+
+.panel-home
+	span
+		width 177px
+		height 110px
+		display block
+		overflow hidden
+		border 1px solid #DDD
+		margin 1px auto
+	.desc
+		padding 2px
+		text-align center
