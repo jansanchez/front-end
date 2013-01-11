@@ -3,9 +3,6 @@
 * @submodule index
 * @main default
 */
-
-
-
 .copyright
 	background none repeat scroll 0 0 white
 	height 50px
@@ -22,4 +19,3 @@
 			float left
 			list-style none outside none
 			padding 0 7px
-
